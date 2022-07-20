@@ -14180,3 +14180,1233 @@ stack: Error: Sync server has member ID XcKrFkjQFRjj which is also local. This u
     at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
     at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
     at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+13:28:16.784 DB size: 3538 KB
+13:28:17.577 Becca (note cache) load took 4ms
+13:28:17.711 App HTTP server starting up at port 37840
+13:28:17.712 {
+  "appVersion": "0.53.2",
+  "dbVersion": 196,
+  "syncVersion": 25,
+  "buildDate": "2022-07-09T13:40:41+02:00",
+  "buildRevision": "9b4ef6ea5eb3711c5ebd9d99fffdc771b84dacc1",
+  "dataDirectory": "C:\\Users\\Admin\\AppData\\Roaming\\trilium-data",
+  "clipperProtocolVersion": "1.0",
+  "utcDateTime": "2022-07-20T05:28:16.783Z"
+}
+13:28:17.712 CPU model: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz, logical cores: 12 freq: 2904 Mhz
+13:28:17.725 Registered global shortcut Ctrl+Alt+P for action createNoteIntoInbox
+13:28:17.727 Listening on port 37840
+13:28:19.807 Generated CSRF token 1CjMTAOy-W3fvEGZ2lnw_SiNp5R_GZOipSu0 with secret _csrf=jsQyw1ipwOsrgz_NJSih_twR; Path=/
+13:28:20.169 200 GET /api/options with 5627 bytes took 1ms
+13:28:20.170 200 GET /api/tree with 10464 bytes took 1ms
+13:28:20.172 200 GET /api/keyboard-actions with 11944 bytes took 0ms
+13:28:20.173 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+13:28:20.173 200 GET /api/script/widgets with 2 bytes took 0ms
+13:28:20.226 200 POST /api/tree/load with 2099 bytes took 1ms
+13:28:20.227 200 GET /api/search/%23bookmarked%20or%20%23bookmarkFolder with 2 bytes took 0ms
+13:28:20.537 200 GET /api/notes/lY3nM8AUV37o with 12628 bytes took 1ms
+13:28:20.537 200 GET /api/notes/lY3nM8AUV37o/backlink-count with 11 bytes took 0ms
+13:28:21.583 Table counts: notes: 153, note_revisions: 86, branches: 164, attributes: 98, etapi_tokens: 0
+13:28:21.600 All consistency checks passed with no errors detected (took 17ms)
+13:28:22.209 200 GET /api/script/startup with 2 bytes took 0ms
+13:28:22.592 304 GET /api/setup/status with 59 bytes took 1ms
+13:28:22.603 200 POST /api/login/sync with 55 bytes took 2ms
+13:28:22.609 sync failed: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+13:28:29.488 200 GET /api/app-info with 294 bytes took 0ms
+13:29:15.964 200 GET /api/notes/4Q5c3V9Sdtv3 with 851 bytes took 0ms
+13:29:15.965 200 GET /api/notes/4Q5c3V9Sdtv3/backlink-count with 11 bytes took 0ms
+13:29:15.979 204 PUT /api/options with 0 bytes took 2ms
+13:29:16.347 200 POST /api/tree/load with 4221 bytes took 0ms
+13:29:16.357 200 GET /api/notes/x36EHqtGvybR with 3918 bytes took 0ms
+13:29:16.385 200 GET /api/notes/3SOIJAUwnVcp with 2624 bytes took 0ms
+13:29:16.386 200 GET /api/notes/3SOIJAUwnVcp/backlink-count with 11 bytes took 1ms
+13:29:16.445 200 GET /api/notes/lY3nM8AUV37o with 12628 bytes took 0ms
+13:29:16.450 200 GET /api/notes/YerbShyugA06 with 2177 bytes took 1ms
+13:29:16.465 200 GET /api/notes/cq1vaCtahZB4 with 6293 bytes took 1ms
+13:29:16.473 200 GET /api/notes/P409Lj6Fe6h9 with 7694 bytes took 1ms
+13:29:16.477 200 GET /api/notes/dUnVnntezj3Y with 5076 bytes took 0ms
+13:29:16.982 204 PUT /api/options with 0 bytes took 0ms
+13:29:17.584 304 GET /api/setup/status with 59 bytes took 0ms
+13:29:17.587 200 POST /api/login/sync with 55 bytes took 0ms
+13:29:17.592 sync failed: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+13:29:19.933 204 PUT /api/branches/BHQVaPLaCV4G/expanded/0 with 0 bytes took 0ms
+13:29:21.384 200 GET /api/notes/ZYGkAvSLdkL5 with 444 bytes took 0ms
+13:29:21.385 200 GET /api/notes/ZYGkAvSLdkL5/backlink-count with 11 bytes took 1ms
+13:29:21.405 204 PUT /api/options with 0 bytes took 1ms
+13:29:21.520 200 POST /api/tree/load with 5637 bytes took 1ms
+13:29:21.522 200 GET /api/notes/ZW8u4z0tKxeE with 435 bytes took 0ms
+13:29:21.523 200 POST /api/tree/load with 2359 bytes took 0ms
+13:29:21.526 200 GET /api/notes/Li0iW3gNIzXw with 432 bytes took 0ms
+13:29:21.527 200 POST /api/tree/load with 1844 bytes took 1ms
+13:29:21.528 200 GET /api/notes/Ztdfhf01x7vv with 430 bytes took 0ms
+13:29:21.529 200 POST /api/tree/load with 2292 bytes took 0ms
+13:29:21.532 200 GET /api/notes/cYaVX7zvptdC with 438 bytes took 1ms
+13:29:21.535 200 POST /api/tree/load with 1837 bytes took 0ms
+13:29:21.537 200 GET /api/notes/FAUZVxMsRoGZ with 430 bytes took 0ms
+13:29:21.538 200 POST /api/tree/load with 2568 bytes took 0ms
+13:29:21.540 200 GET /api/notes/AtGPxFrynICM with 432 bytes took 0ms
+13:29:21.541 200 POST /api/tree/load with 4992 bytes took 0ms
+13:29:25.737 200 GET /api/tree?subTreeNoteId=ZYGkAvSLdkL5 with 5637 bytes took 0ms
+13:29:25.950 204 PUT /api/branches/oY5uv6X0sj4Q/expanded/1 with 0 bytes took 1ms
+13:29:29.595 Marking branches oiZwyF2OOxXf as deleted
+13:29:29.595 200 PUT /api/branches/oiZwyF2OOxXf/move-to/pHdiUCqQu8ss with 219 bytes took 2ms
+13:29:31.225 200 GET /api/notes/Li0iW3gNIzXw with 432 bytes took 0ms
+13:29:31.225 200 GET /api/notes/Li0iW3gNIzXw/backlink-count with 11 bytes took 0ms
+13:29:31.240 204 PUT /api/options with 0 bytes took 0ms
+13:29:31.353 200 GET /api/notes/weN8GXi9rZKI with 1093 bytes took 1ms
+13:29:34.783 200 GET /api/tree?subTreeNoteId=hFTRpBUVwuI4 with 3638 bytes took 0ms
+13:29:35.001 204 PUT /api/branches/s0Z5Fa2NSnKs/expanded/1 with 0 bytes took 1ms
+13:29:35.717 204 PUT /api/branches/s0Z5Fa2NSnKs/expanded/0 with 0 bytes took 0ms
+13:29:37.153 200 GET /api/notes/ZwloeVTBS41v with 432 bytes took 0ms
+13:29:37.153 200 GET /api/notes/ZwloeVTBS41v/backlink-count with 11 bytes took 0ms
+13:29:37.166 204 PUT /api/options with 0 bytes took 0ms
+13:29:37.267 200 POST /api/tree/load with 2940 bytes took 0ms
+13:29:37.270 200 GET /api/notes/dhk3wWPt0eMC with 2917 bytes took 0ms
+13:29:37.273 200 GET /api/notes/uTByF78LVcNr with 8049 bytes took 1ms
+13:29:39.039 200 GET /api/tree?subTreeNoteId=Li0iW3gNIzXw with 1712 bytes took 1ms
+13:29:39.252 204 PUT /api/branches/NxbnOeONOsOI/expanded/1 with 0 bytes took 1ms
+13:29:40.729 Marking branches TeFHl9472jRf as deleted
+13:29:40.730 200 PUT /api/branches/TeFHl9472jRf/move-to/7eyL8LWfw2NB with 219 bytes took 1ms
+13:29:40.735 200 GET /api/tree?subTreeNoteId=ZwloeVTBS41v with 3180 bytes took 0ms
+13:29:42.135 204 PUT /api/branches/7eyL8LWfw2NB/expanded/0 with 0 bytes took 0ms
+13:29:43.561 200 GET /api/notes/ZYGkAvSLdkL5 with 444 bytes took 1ms
+13:29:43.561 200 GET /api/notes/ZYGkAvSLdkL5/backlink-count with 11 bytes took 0ms
+13:29:43.574 204 PUT /api/options with 0 bytes took 0ms
+13:29:43.676 200 GET /api/notes/Li0iW3gNIzXw with 432 bytes took 1ms
+13:29:43.677 200 GET /api/notes/Ztdfhf01x7vv with 430 bytes took 0ms
+13:29:43.679 200 GET /api/notes/cYaVX7zvptdC with 438 bytes took 0ms
+13:29:43.680 200 GET /api/notes/FAUZVxMsRoGZ with 430 bytes took 0ms
+13:29:43.682 200 GET /api/notes/AtGPxFrynICM with 432 bytes took 0ms
+13:29:44.399 200 GET /api/notes/Li0iW3gNIzXw/backlink-count with 11 bytes took 0ms
+13:29:44.580 204 PUT /api/options with 0 bytes took 0ms
+13:29:46.472 200 POST /api/delete-notes-preview with 60 bytes took 1ms
+13:29:47.953 Sending message to all clients: {"type":"taskProgressCount","taskId":"yiCNEA7AyF","taskType":"delete-notes","progressCount":0}
+13:29:47.954 Marking branches NxbnOeONOsOI as deleted
+13:29:47.954 Deleting note Li0iW3gNIzXw
+13:29:47.954 Marking notes Li0iW3gNIzXw as deleted
+13:29:47.954 Sending message to all clients: {"type":"taskSucceeded","taskId":"yiCNEA7AyF","taskType":"delete-notes"}
+13:29:47.962 200 DELETE /api/branches/NxbnOeONOsOI?taskId=yiCNEA7AyF&eraseNotes=false&last=true with 20 bytes took 9ms
+13:29:47.983 200 POST /api/tree/load with 42 bytes took 0ms
+13:29:47.984 200 GET /api/search/%23workspace with 2 bytes took 1ms
+13:29:47.990 204 PUT /api/options with 0 bytes took 2ms
+13:29:48.007 200 GET /api/notes/Ztdfhf01x7vv with 430 bytes took 1ms
+13:29:48.007 200 GET /api/notes/Ztdfhf01x7vv/backlink-count with 11 bytes took 0ms
+13:29:48.029 200 GET /api/notes/XVPHdbOx6vZY with 1188 bytes took 0ms
+13:29:48.031 200 GET /api/notes/9fvpArzgIbOM with 5652 bytes took 0ms
+13:29:48.035 200 GET /api/notes/TFsPym7GyHGc with 3134 bytes took 0ms
+13:29:48.990 204 PUT /api/options with 0 bytes took 0ms
+13:29:53.474 200 GET /api/notes/emJo3gvb2ngn with 430 bytes took 0ms
+13:29:53.475 200 GET /api/notes/emJo3gvb2ngn/backlink-count with 11 bytes took 0ms
+13:29:53.488 204 PUT /api/options with 0 bytes took 0ms
+13:29:53.600 200 POST /api/tree/load with 2803 bytes took 0ms
+13:29:53.603 200 GET /api/notes/C2TEcl5fgwdO with 705 bytes took 1ms
+13:29:55.287 200 GET /api/tree?subTreeNoteId=Ztdfhf01x7vv with 2029 bytes took 1ms
+13:29:55.503 204 PUT /api/branches/SkUd1Wr8odaq/expanded/1 with 0 bytes took 0ms
+13:29:57.354 Marking branches qK482axszlZZ as deleted
+13:29:57.354 200 PUT /api/branches/qK482axszlZZ/move-to/BqvQb3Odrpty with 219 bytes took 1ms
+13:29:57.359 200 GET /api/tree?subTreeNoteId=emJo3gvb2ngn with 3030 bytes took 0ms
+13:30:00.193 Marking branches tXV6ScYOxDhc as deleted
+13:30:00.193 200 PUT /api/branches/tXV6ScYOxDhc/move-to/BqvQb3Odrpty with 219 bytes took 1ms
+13:30:02.409 200 GET /api/notes/XVPHdbOx6vZY with 1188 bytes took 0ms
+13:30:02.409 200 GET /api/notes/XVPHdbOx6vZY/backlink-count with 11 bytes took 0ms
+13:30:02.442 204 PUT /api/options with 0 bytes took 0ms
+13:30:03.808 200 GET /api/notes/Ztdfhf01x7vv with 430 bytes took 0ms
+13:30:03.809 200 GET /api/notes/Ztdfhf01x7vv/backlink-count with 11 bytes took 0ms
+13:30:03.826 204 PUT /api/options with 0 bytes took 0ms
+13:30:03.830 200 GET /api/notes/XVPHdbOx6vZY with 1188 bytes took 0ms
+13:30:05.176 200 POST /api/delete-notes-preview with 75 bytes took 1ms
+13:30:05.712 Sending message to all clients: {"type":"taskProgressCount","taskId":"Ze3RCLakaP","taskType":"delete-notes","progressCount":0}
+13:30:05.713 Marking branches SkUd1Wr8odaq as deleted
+13:30:05.713 Marking branches elFwDhYPQk1O as deleted
+13:30:05.713 Deleting note XVPHdbOx6vZY
+13:30:05.713 Marking notes XVPHdbOx6vZY as deleted
+13:30:05.713 Deleting note Ztdfhf01x7vv
+13:30:05.713 Marking notes Ztdfhf01x7vv as deleted
+13:30:05.713 Sending message to all clients: {"type":"taskSucceeded","taskId":"Ze3RCLakaP","taskType":"delete-notes"}
+13:30:05.714 200 DELETE /api/branches/SkUd1Wr8odaq?taskId=Ze3RCLakaP&eraseNotes=false&last=true with 20 bytes took 2ms
+13:30:05.718 200 POST /api/tree/load with 42 bytes took 1ms
+13:30:05.733 200 POST /api/tree/load with 42 bytes took 0ms
+13:30:05.734 200 GET /api/search/%23workspace with 2 bytes took 0ms
+13:30:05.738 204 PUT /api/options with 0 bytes took 0ms
+13:30:05.750 200 GET /api/notes/cYaVX7zvptdC with 438 bytes took 0ms
+13:30:05.751 200 GET /api/notes/cYaVX7zvptdC/backlink-count with 11 bytes took 0ms
+13:30:05.767 200 GET /api/notes/d26BsMVN2jew with 1404 bytes took 0ms
+13:30:06.740 204 PUT /api/options with 0 bytes took 1ms
+13:30:09.025 200 GET /api/notes/d26BsMVN2jew with 1404 bytes took 0ms
+13:30:09.025 200 GET /api/notes/d26BsMVN2jew/backlink-count with 11 bytes took 0ms
+13:30:09.027 200 GET /api/tree?subTreeNoteId=cYaVX7zvptdC with 1443 bytes took 1ms
+13:30:09.060 204 PUT /api/options with 0 bytes took 1ms
+13:30:09.076 204 PUT /api/branches/gaA346XIFhr7/expanded/1 with 0 bytes took 0ms
+13:30:11.193 200 GET /api/notes/cYaVX7zvptdC with 438 bytes took 0ms
+13:30:11.194 200 GET /api/notes/cYaVX7zvptdC/backlink-count with 11 bytes took 0ms
+13:30:11.214 204 PUT /api/options with 0 bytes took 0ms
+13:30:11.219 200 GET /api/notes/d26BsMVN2jew with 1404 bytes took 0ms
+13:30:11.839 200 POST /api/delete-notes-preview with 75 bytes took 1ms
+13:30:13.153 Sending message to all clients: {"type":"taskProgressCount","taskId":"Bc4FDClY4H","taskType":"delete-notes","progressCount":0}
+13:30:13.153 Marking branches gaA346XIFhr7 as deleted
+13:30:13.153 Marking branches XGOTyqrs5Xhk as deleted
+13:30:13.153 Deleting note d26BsMVN2jew
+13:30:13.153 Marking notes d26BsMVN2jew as deleted
+13:30:13.153 Deleting note cYaVX7zvptdC
+13:30:13.153 Marking notes cYaVX7zvptdC as deleted
+13:30:13.153 Sending message to all clients: {"type":"taskSucceeded","taskId":"Bc4FDClY4H","taskType":"delete-notes"}
+13:30:13.154 200 DELETE /api/branches/gaA346XIFhr7?taskId=Bc4FDClY4H&eraseNotes=false&last=true with 20 bytes took 1ms
+13:30:13.160 200 POST /api/tree/load with 42 bytes took 0ms
+13:30:13.173 200 POST /api/tree/load with 42 bytes took 0ms
+13:30:13.174 200 GET /api/search/%23workspace with 2 bytes took 0ms
+13:30:13.176 204 PUT /api/options with 0 bytes took 0ms
+13:30:13.188 200 GET /api/notes/FAUZVxMsRoGZ with 430 bytes took 0ms
+13:30:13.189 200 GET /api/notes/FAUZVxMsRoGZ/backlink-count with 11 bytes took 0ms
+13:30:13.207 200 GET /api/notes/aX9MfUXEvU6c with 781 bytes took 1ms
+13:30:13.210 200 GET /api/notes/VYUXKDQwkgk1 with 2462 bytes took 1ms
+13:30:13.214 200 GET /api/notes/D6muhBB2Vhky with 3748 bytes took 0ms
+13:30:13.216 200 GET /api/notes/lImima7XfXn9 with 877 bytes took 0ms
+13:30:14.179 204 PUT /api/options with 0 bytes took 0ms
+13:30:14.319 200 GET /api/tree?subTreeNoteId=FAUZVxMsRoGZ with 2043 bytes took 1ms
+13:30:14.536 204 PUT /api/branches/sYayAcRgH7Y5/expanded/1 with 0 bytes took 0ms
+13:30:15.070 204 PUT /api/branches/sYayAcRgH7Y5/expanded/0 with 0 bytes took 0ms
+13:30:17.592 304 GET /api/setup/status with 59 bytes took 0ms
+13:30:17.595 200 POST /api/login/sync with 55 bytes took 1ms
+13:30:17.601 sync failed: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+13:30:19.669 204 PUT /api/branches/oY5uv6X0sj4Q/expanded/0 with 0 bytes took 0ms
+13:30:20.503 204 PUT /api/branches/oY5uv6X0sj4Q/expanded/1 with 0 bytes took 0ms
+13:30:24.082 Generated CSRF token ZsWqplPv-xcSk9jub_tlvxROewy1YPCof0xQ with secret undefined
+13:30:24.259 200 GET /api/options with 5614 bytes took 1ms
+13:30:24.259 200 GET /api/tree with 11444 bytes took 0ms
+13:30:24.260 200 GET /api/keyboard-actions with 11944 bytes took 1ms
+13:30:24.260 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+13:30:24.261 200 GET /api/script/widgets with 2 bytes took 1ms
+13:30:24.302 200 POST /api/tree/load with 2098 bytes took 1ms
+13:30:24.303 200 GET /api/search/%23bookmarked%20or%20%23bookmarkFolder with 2 bytes took 0ms
+13:30:24.578 200 GET /api/notes/FAUZVxMsRoGZ with 430 bytes took 0ms
+13:30:24.579 200 GET /api/notes/FAUZVxMsRoGZ/backlink-count with 11 bytes took 0ms
+13:30:24.971 200 POST /api/tree/load with 2043 bytes took 0ms
+13:30:24.975 200 GET /api/notes/aX9MfUXEvU6c with 781 bytes took 1ms
+13:30:24.976 200 GET /api/notes/VYUXKDQwkgk1 with 2462 bytes took 0ms
+13:30:24.978 200 GET /api/notes/D6muhBB2Vhky with 3748 bytes took 0ms
+13:30:24.980 200 GET /api/notes/lImima7XfXn9 with 877 bytes took 1ms
+13:30:26.298 200 GET /api/script/startup with 2 bytes took 1ms
+13:30:31.762 Generated CSRF token 55qzjEEE-QnvxZToPacNAA-1bsViXnfldeSU with secret undefined
+13:30:31.914 200 GET /api/options with 5614 bytes took 0ms
+13:30:31.914 200 GET /api/tree with 11444 bytes took 0ms
+13:30:31.915 200 GET /api/keyboard-actions with 11944 bytes took 0ms
+13:30:31.915 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+13:30:31.916 200 GET /api/script/widgets with 2 bytes took 0ms
+13:30:31.940 200 POST /api/tree/load with 2098 bytes took 0ms
+13:30:31.941 200 GET /api/search/%23bookmarked%20or%20%23bookmarkFolder with 2 bytes took 0ms
+13:30:32.145 200 GET /api/notes/FAUZVxMsRoGZ with 430 bytes took 0ms
+13:30:32.145 200 GET /api/notes/FAUZVxMsRoGZ/backlink-count with 11 bytes took 0ms
+13:30:32.501 200 POST /api/tree/load with 2043 bytes took 0ms
+13:30:32.504 200 GET /api/notes/aX9MfUXEvU6c with 781 bytes took 1ms
+13:30:32.505 200 GET /api/notes/VYUXKDQwkgk1 with 2462 bytes took 0ms
+13:30:32.508 200 GET /api/notes/D6muhBB2Vhky with 3748 bytes took 1ms
+13:30:32.509 200 GET /api/notes/lImima7XfXn9 with 877 bytes took 0ms
+13:30:33.939 200 GET /api/script/startup with 2 bytes took 1ms
+13:30:33.952 200 GET /api/notes/ZYGkAvSLdkL5 with 444 bytes took 0ms
+13:30:33.953 200 GET /api/notes/ZYGkAvSLdkL5/backlink-count with 11 bytes took 1ms
+13:30:33.968 204 PUT /api/options with 0 bytes took 1ms
+13:30:34.069 200 GET /api/notes/FAUZVxMsRoGZ with 430 bytes took 0ms
+13:30:34.072 200 GET /api/notes/AtGPxFrynICM with 432 bytes took 0ms
+13:30:34.075 200 POST /api/tree/load with 4467 bytes took 1ms
+13:30:34.510 200 GET /api/notes/FAUZVxMsRoGZ/backlink-count with 11 bytes took 0ms
+13:30:34.625 200 GET /api/notes/aX9MfUXEvU6c with 781 bytes took 1ms
+13:30:34.626 200 GET /api/notes/VYUXKDQwkgk1 with 2462 bytes took 0ms
+13:30:34.628 200 GET /api/notes/D6muhBB2Vhky with 3748 bytes took 1ms
+13:30:34.629 200 GET /api/notes/lImima7XfXn9 with 877 bytes took 0ms
+13:30:34.969 204 PUT /api/options with 0 bytes took 1ms
+13:30:40.418 200 GET /api/search-templates with 2 bytes took 1ms
+13:30:40.419 200 GET /api/search-templates with 2 bytes took 0ms
+13:30:47.196 Slow 200 GET /api/autocomplete?query=t&activeNoteId=FAUZVxMsRoGZ with 35816 bytes took 10ms
+13:30:47.272 200 GET /api/autocomplete?query=te&activeNoteId=FAUZVxMsRoGZ with 30609 bytes took 4ms
+13:30:47.487 200 GET /api/autocomplete?query=teh&activeNoteId=FAUZVxMsRoGZ with 2 bytes took 1ms
+13:30:47.639 200 GET /api/autocomplete?query=tehc&activeNoteId=FAUZVxMsRoGZ with 2 bytes took 1ms
+13:30:47.727 200 GET /api/autocomplete?query=tehcn&activeNoteId=FAUZVxMsRoGZ with 2 bytes took 1ms
+13:30:47.791 200 GET /api/autocomplete?query=tehcni&activeNoteId=FAUZVxMsRoGZ with 2 bytes took 1ms
+13:30:48.167 200 GET /api/autocomplete?query=tehcn&activeNoteId=FAUZVxMsRoGZ with 2 bytes took 1ms
+13:30:48.287 200 GET /api/autocomplete?query=tehc&activeNoteId=FAUZVxMsRoGZ with 2 bytes took 1ms
+13:30:48.423 200 GET /api/autocomplete?query=teh&activeNoteId=FAUZVxMsRoGZ with 2 bytes took 1ms
+13:30:48.562 200 GET /api/autocomplete?query=te&activeNoteId=FAUZVxMsRoGZ with 30609 bytes took 4ms
+13:30:48.709 200 GET /api/autocomplete?query=t&activeNoteId=FAUZVxMsRoGZ with 35816 bytes took 7ms
+13:30:48.864 200 GET /api/autocomplete?query=&activeNoteId=FAUZVxMsRoGZ with 5074 bytes took 1ms
+13:30:49.123 200 GET /api/autocomplete?query=T&activeNoteId=FAUZVxMsRoGZ with 35816 bytes took 5ms
+13:30:49.218 200 GET /api/autocomplete?query=Te&activeNoteId=FAUZVxMsRoGZ with 30609 bytes took 4ms
+13:30:49.447 200 GET /api/autocomplete?query=Teh&activeNoteId=FAUZVxMsRoGZ with 2 bytes took 1ms
+13:30:49.582 200 GET /api/autocomplete?query=Tehc&activeNoteId=FAUZVxMsRoGZ with 2 bytes took 0ms
+13:30:49.934 200 GET /api/autocomplete?query=Teh&activeNoteId=FAUZVxMsRoGZ with 2 bytes took 0ms
+13:30:50.074 200 GET /api/autocomplete?query=Te&activeNoteId=FAUZVxMsRoGZ with 30609 bytes took 4ms
+13:30:50.295 200 GET /api/autocomplete?query=Tec&activeNoteId=FAUZVxMsRoGZ with 500 bytes took 1ms
+13:30:50.791 200 GET /api/autocomplete?query=Tech&activeNoteId=FAUZVxMsRoGZ with 500 bytes took 1ms
+13:30:55.131 Marking branches sYayAcRgH7Y5 as deleted
+13:30:55.132 200 PUT /api/branches/sYayAcRgH7Y5/move-to/pHdiUCqQu8ss with 219 bytes took 1ms
+13:31:02.275 200 GET /api/notes/AtGPxFrynICM with 432 bytes took 0ms
+13:31:02.276 200 GET /api/notes/AtGPxFrynICM/backlink-count with 11 bytes took 0ms
+13:31:02.305 204 PUT /api/options with 0 bytes took 1ms
+13:31:02.407 200 POST /api/tree/load with 3658 bytes took 1ms
+13:31:02.410 200 GET /api/notes/9Xvec3iKSrNv with 440 bytes took 0ms
+13:31:02.411 200 POST /api/tree/load with 3414 bytes took 0ms
+13:31:02.413 200 GET /api/notes/gU1q869aqpOq with 435 bytes took 0ms
+13:31:02.414 200 POST /api/tree/load with 3401 bytes took 1ms
+13:31:02.415 200 GET /api/notes/CbSlJ1Pk7zhN with 6089 bytes took 0ms
+13:31:02.418 200 GET /api/notes/XGINIJ6QwEHV with 2780 bytes took 1ms
+13:31:02.420 200 GET /api/notes/Y3pPpohIOn7b with 11824 bytes took 0ms
+13:31:02.424 200 GET /api/notes/wYvDO60EoSO2 with 5745 bytes took 1ms
+13:31:02.439 200 GET /api/notes/YvsVccqnEKMl with 6712 bytes took 0ms
+13:31:02.448 200 GET /api/notes/Efyexj30Mu6F with 3671 bytes took 0ms
+13:31:02.451 200 GET /api/notes/s6L2rc6es1kc with 6966 bytes took 1ms
+13:31:02.453 200 GET /api/notes/v8joVFtWu3cp with 12095 bytes took 0ms
+13:31:02.456 200 GET /api/notes/TE08lWLNus3b with 435 bytes took 0ms
+13:31:02.470 200 GET /api/notes/Yaow9A9viW2B with 2640 bytes took 0ms
+13:31:02.472 200 GET /api/notes/dCyuIf4bt826 with 7979 bytes took 0ms
+13:31:02.481 200 GET /api/notes/qWJEnZn3jHQG with 3908 bytes took 0ms
+13:31:02.483 200 GET /api/notes/ujoqYxM7h3cD with 8439 bytes took 0ms
+13:31:02.486 200 GET /api/notes/GNUnWq0PgAyN with 7753 bytes took 0ms
+13:31:04.670 200 GET /api/notes/ZYGkAvSLdkL5 with 444 bytes took 0ms
+13:31:04.671 200 GET /api/notes/ZYGkAvSLdkL5/backlink-count with 11 bytes took 0ms
+13:31:04.686 204 PUT /api/options with 0 bytes took 1ms
+13:31:04.789 200 GET /api/notes/AtGPxFrynICM with 432 bytes took 1ms
+13:31:09.846 200 GET /api/notes/AtGPxFrynICM with 432 bytes took 0ms
+13:31:09.847 200 GET /api/notes/AtGPxFrynICM/backlink-count with 11 bytes took 1ms
+13:31:09.860 204 PUT /api/options with 0 bytes took 0ms
+13:31:09.962 200 GET /api/notes/9Xvec3iKSrNv with 440 bytes took 0ms
+13:31:09.964 200 GET /api/notes/gU1q869aqpOq with 435 bytes took 0ms
+13:31:09.966 200 GET /api/notes/CbSlJ1Pk7zhN with 6089 bytes took 1ms
+13:31:09.968 200 GET /api/notes/XGINIJ6QwEHV with 2780 bytes took 0ms
+13:31:09.970 200 GET /api/notes/Y3pPpohIOn7b with 11824 bytes took 0ms
+13:31:09.973 200 GET /api/notes/wYvDO60EoSO2 with 5745 bytes took 0ms
+13:31:09.983 200 GET /api/notes/YvsVccqnEKMl with 6712 bytes took 0ms
+13:31:09.986 200 GET /api/notes/Efyexj30Mu6F with 3671 bytes took 0ms
+13:31:09.987 200 GET /api/notes/s6L2rc6es1kc with 6966 bytes took 0ms
+13:31:09.990 200 GET /api/notes/v8joVFtWu3cp with 12095 bytes took 0ms
+13:31:10.003 200 GET /api/notes/TE08lWLNus3b with 435 bytes took 0ms
+13:31:10.004 200 GET /api/notes/Yaow9A9viW2B with 2640 bytes took 0ms
+13:31:10.006 200 GET /api/notes/dCyuIf4bt826 with 7979 bytes took 0ms
+13:31:10.012 200 GET /api/notes/qWJEnZn3jHQG with 3908 bytes took 0ms
+13:31:10.015 200 GET /api/notes/ujoqYxM7h3cD with 8439 bytes took 1ms
+13:31:10.017 200 GET /api/notes/GNUnWq0PgAyN with 7753 bytes took 0ms
+13:31:12.030 200 GET /api/notes/ytkAALq5c3pE with 433 bytes took 0ms
+13:31:12.031 200 GET /api/notes/ytkAALq5c3pE/backlink-count with 11 bytes took 0ms
+13:31:12.043 204 PUT /api/options with 0 bytes took 0ms
+13:31:12.149 200 POST /api/tree/load with 1225 bytes took 0ms
+13:31:12.154 200 GET /api/notes/zOdqRTXR4EGO with 3405 bytes took 1ms
+13:31:16.493 204 PUT /api/branches/BqvQb3Odrpty/expanded/0 with 0 bytes took 0ms
+13:31:17.479 200 GET /api/notes/n6iRE2zsKdrw/backlink-count with 11 bytes took 1ms
+13:31:17.481 200 GET /api/notes/n6iRE2zsKdrw with 440 bytes took 1ms
+13:31:17.488 204 PUT /api/options with 0 bytes took 1ms
+13:31:17.594 200 GET /api/notes/hFTRpBUVwuI4 with 440 bytes took 0ms
+13:31:17.595 200 POST /api/tree/load with 3769 bytes took 1ms
+13:31:17.596 304 GET /api/setup/status with 59 bytes took 1ms
+13:31:17.597 200 GET /api/notes/3SOIJAUwnVcp with 2624 bytes took 0ms
+13:31:17.599 200 POST /api/login/sync with 55 bytes took 1ms
+13:31:17.599 200 GET /api/notes/emJo3gvb2ngn with 430 bytes took 0ms
+13:31:17.601 200 GET /api/notes/ZwloeVTBS41v with 432 bytes took 0ms
+13:31:17.602 200 POST /api/tree/load with 3312 bytes took 0ms
+13:31:17.604 200 GET /api/notes/ppXUUjl570zv with 432 bytes took 1ms
+13:31:17.605 200 POST /api/tree/load with 2876 bytes took 1ms
+13:31:17.607 200 GET /api/notes/ZW8u4z0tKxeE with 435 bytes took 0ms
+13:31:17.608 sync failed: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+13:31:17.612 200 POST /api/tree/load with 2766 bytes took 1ms
+13:31:17.614 200 GET /api/notes/FAUZVxMsRoGZ with 430 bytes took 1ms
+13:31:21.376 200 GET /api/notes/FAUZVxMsRoGZ with 430 bytes took 0ms
+13:31:21.377 200 GET /api/notes/FAUZVxMsRoGZ/backlink-count with 11 bytes took 1ms
+13:31:21.390 204 PUT /api/options with 0 bytes took 1ms
+13:31:21.491 200 GET /api/notes/aX9MfUXEvU6c with 781 bytes took 0ms
+13:31:21.493 200 GET /api/notes/VYUXKDQwkgk1 with 2462 bytes took 0ms
+13:31:21.495 200 GET /api/notes/D6muhBB2Vhky with 3748 bytes took 0ms
+13:31:21.496 200 GET /api/notes/lImima7XfXn9 with 877 bytes took 0ms
+13:31:23.443 200 GET /api/notes/globalnotemap/backlink-count with 11 bytes took 1ms
+13:31:23.450 204 PUT /api/options with 0 bytes took 1ms
+13:31:23.531 200 POST /api/note-map/root/link with 8264 bytes took 2ms
+13:31:25.999 204 PUT /api/notes/globalnotemap/set-attribute with 0 bytes took 1ms
+13:31:26.028 200 POST /api/note-map/root/link with 8264 bytes took 2ms
+13:31:27.558 204 PUT /api/notes/globalnotemap/set-attribute with 0 bytes took 0ms
+13:31:27.573 200 POST /api/note-map/root/tree with 12779 bytes took 1ms
+13:31:46.598 200 GET /api/notes/AtGPxFrynICM with 432 bytes took 0ms
+13:31:46.599 200 GET /api/notes/AtGPxFrynICM/backlink-count with 11 bytes took 0ms
+13:31:46.607 204 PUT /api/options with 0 bytes took 1ms
+13:31:47.003 200 GET /api/notes/9Xvec3iKSrNv with 440 bytes took 1ms
+13:31:47.004 200 GET /api/notes/gU1q869aqpOq with 435 bytes took 0ms
+13:31:47.006 200 GET /api/notes/CbSlJ1Pk7zhN with 6089 bytes took 0ms
+13:31:47.008 200 GET /api/notes/XGINIJ6QwEHV with 2780 bytes took 0ms
+13:31:47.011 200 GET /api/notes/Y3pPpohIOn7b with 11824 bytes took 1ms
+13:31:47.019 200 GET /api/tree?subTreeNoteId=AtGPxFrynICM with 4944 bytes took 1ms
+13:31:47.024 200 GET /api/notes/wYvDO60EoSO2 with 5745 bytes took 1ms
+13:31:47.042 200 GET /api/notes/YvsVccqnEKMl with 6712 bytes took 0ms
+13:31:47.052 200 GET /api/notes/Efyexj30Mu6F with 3671 bytes took 0ms
+13:31:47.055 200 GET /api/notes/s6L2rc6es1kc with 6966 bytes took 0ms
+13:31:47.057 200 GET /api/notes/v8joVFtWu3cp with 12095 bytes took 0ms
+13:31:47.060 200 GET /api/notes/TE08lWLNus3b with 435 bytes took 0ms
+13:31:47.074 200 GET /api/notes/Yaow9A9viW2B with 2640 bytes took 0ms
+13:31:47.076 200 GET /api/notes/dCyuIf4bt826 with 7979 bytes took 0ms
+13:31:47.083 200 GET /api/notes/qWJEnZn3jHQG with 3908 bytes took 0ms
+13:31:47.087 200 GET /api/notes/ujoqYxM7h3cD with 8439 bytes took 0ms
+13:31:47.093 200 GET /api/notes/GNUnWq0PgAyN with 7753 bytes took 0ms
+13:31:47.244 204 PUT /api/branches/aGAbC25eOQdv/expanded/1 with 0 bytes took 1ms
+13:31:52.319 200 GET /api/tree?subTreeNoteId=hFTRpBUVwuI4 with 3769 bytes took 1ms
+13:31:52.527 204 PUT /api/branches/s0Z5Fa2NSnKs/expanded/1 with 0 bytes took 0ms
+13:31:54.046 200 GET /api/tree?subTreeNoteId=kfovyJkPyMP0 with 2884 bytes took 0ms
+13:31:54.260 204 PUT /api/branches/JDqLyioH4NEe/expanded/1 with 0 bytes took 0ms
+13:31:54.862 204 PUT /api/branches/JDqLyioH4NEe/expanded/0 with 0 bytes took 0ms
+13:31:55.263 200 GET /api/tree?subTreeNoteId=wxBd9oXuzZOD with 3155 bytes took 1ms
+13:31:55.477 204 PUT /api/branches/mY8fyxGn2oam/expanded/1 with 0 bytes took 0ms
+13:31:56.061 204 PUT /api/branches/mY8fyxGn2oam/expanded/0 with 0 bytes took 0ms
+13:31:58.090 200 GET /api/notes/CbSlJ1Pk7zhN with 6089 bytes took 1ms
+13:31:58.090 200 GET /api/notes/CbSlJ1Pk7zhN/backlink-count with 11 bytes took 0ms
+13:31:58.196 204 PUT /api/options with 0 bytes took 0ms
+13:32:06.462 200 GET /api/tree?subTreeNoteId=gU1q869aqpOq with 3400 bytes took 0ms
+13:32:06.678 204 PUT /api/branches/5FVuN9MpsXPa/expanded/1 with 0 bytes took 0ms
+13:32:07.604 200 GET /api/notes/gU1q869aqpOq with 435 bytes took 1ms
+13:32:07.604 200 GET /api/notes/gU1q869aqpOq/backlink-count with 11 bytes took 0ms
+13:32:07.671 204 PUT /api/options with 0 bytes took 1ms
+13:32:07.681 200 GET /api/notes/vQybgEX5Uufu with 6632 bytes took 0ms
+13:32:08.775 200 POST /api/delete-notes-preview with 75 bytes took 0ms
+13:32:12.802 Sending message to all clients: {"type":"taskProgressCount","taskId":"y74BmOU4YS","taskType":"delete-notes","progressCount":0}
+13:32:12.803 Marking branches 5FVuN9MpsXPa as deleted
+13:32:12.803 Marking branches kWSfOYhWZdru as deleted
+13:32:12.803 Deleting note vQybgEX5Uufu
+13:32:12.803 Marking notes vQybgEX5Uufu as deleted
+13:32:12.803 Deleting note gU1q869aqpOq
+13:32:12.803 Marking notes gU1q869aqpOq as deleted
+13:32:12.803 Sending message to all clients: {"type":"taskSucceeded","taskId":"y74BmOU4YS","taskType":"delete-notes"}
+13:32:12.803 200 DELETE /api/branches/5FVuN9MpsXPa?taskId=y74BmOU4YS&eraseNotes=false&last=true with 20 bytes took 1ms
+13:32:12.806 200 POST /api/tree/load with 42 bytes took 0ms
+13:32:12.830 200 POST /api/tree/load with 42 bytes took 0ms
+13:32:12.831 200 GET /api/search/%23workspace with 2 bytes took 0ms
+13:32:12.838 204 PUT /api/options with 0 bytes took 0ms
+13:32:12.860 200 GET /api/notes/CbSlJ1Pk7zhN with 6089 bytes took 0ms
+13:32:12.860 200 GET /api/notes/CbSlJ1Pk7zhN/backlink-count with 11 bytes took 0ms
+13:32:13.841 204 PUT /api/options with 0 bytes took 0ms
+13:32:14.019 200 GET /api/notes/9Xvec3iKSrNv with 440 bytes took 1ms
+13:32:14.019 200 GET /api/notes/9Xvec3iKSrNv/backlink-count with 11 bytes took 0ms
+13:32:14.051 200 GET /api/notes/rsm95qt5nzim with 2170 bytes took 1ms
+13:32:14.842 204 PUT /api/options with 0 bytes took 0ms
+13:32:17.599 304 GET /api/setup/status with 59 bytes took 0ms
+13:32:17.601 200 POST /api/login/sync with 55 bytes took 0ms
+13:32:17.606 sync failed: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+13:32:24.342 200 GET /api/autocomplete?query=&activeNoteId=9Xvec3iKSrNv with 5248 bytes took 1ms
+13:32:29.089 200 GET /api/autocomplete?query=w&activeNoteId=9Xvec3iKSrNv with 13320 bytes took 2ms
+13:32:29.167 200 GET /api/autocomplete?query=we&activeNoteId=9Xvec3iKSrNv with 4798 bytes took 1ms
+13:32:29.511 200 GET /api/autocomplete?query=web&activeNoteId=9Xvec3iKSrNv with 1867 bytes took 0ms
+13:32:29.751 200 GET /api/autocomplete?query=webd&activeNoteId=9Xvec3iKSrNv with 2 bytes took 0ms
+13:32:29.991 200 GET /api/autocomplete?query=webde&activeNoteId=9Xvec3iKSrNv with 2 bytes took 1ms
+13:32:30.351 200 GET /api/autocomplete?query=webd&activeNoteId=9Xvec3iKSrNv with 2 bytes took 1ms
+13:32:30.487 200 GET /api/autocomplete?query=web&activeNoteId=9Xvec3iKSrNv with 1867 bytes took 1ms
+13:32:31.112 200 GET /api/autocomplete?query=web-&activeNoteId=9Xvec3iKSrNv with 199 bytes took 1ms
+13:32:31.359 200 GET /api/autocomplete?query=web-d&activeNoteId=9Xvec3iKSrNv with 199 bytes took 1ms
+13:32:31.559 200 GET /api/autocomplete?query=web-de&activeNoteId=9Xvec3iKSrNv with 199 bytes took 1ms
+13:32:31.711 200 GET /api/autocomplete?query=web-dev&activeNoteId=9Xvec3iKSrNv with 199 bytes took 1ms
+13:32:32.353 200 GET /api/autocomplete?query=Web-Development&activeNoteId=9Xvec3iKSrNv with 199 bytes took 1ms
+13:32:33.555 Marking branches vBp8l6WlllhA as deleted
+13:32:33.555 200 PUT /api/branches/vBp8l6WlllhA/move-to/s0Z5Fa2NSnKs with 219 bytes took 1ms
+13:32:36.030 204 PUT /api/branches/s0Z5Fa2NSnKs/expanded/0 with 0 bytes took 0ms
+13:32:36.615 204 PUT /api/branches/s0Z5Fa2NSnKs/expanded/1 with 0 bytes took 0ms
+13:32:38.486 200 GET /api/tree?subTreeNoteId=9Xvec3iKSrNv with 3043 bytes took 0ms
+13:32:38.697 204 PUT /api/branches/zpa2TQ2YwQjk/expanded/1 with 0 bytes took 0ms
+13:32:41.297 204 PUT /api/branches/zpa2TQ2YwQjk/expanded/0 with 0 bytes took 0ms
+13:32:42.698 204 PUT /api/branches/s0Z5Fa2NSnKs/expanded/0 with 0 bytes took 1ms
+13:32:43.447 204 PUT /api/branches/s0Z5Fa2NSnKs/expanded/1 with 0 bytes took 0ms
+13:32:44.614 204 PUT /api/branches/zpa2TQ2YwQjk/expanded/1 with 0 bytes took 0ms
+13:32:45.298 204 PUT /api/branches/zpa2TQ2YwQjk/expanded/0 with 0 bytes took 1ms
+13:32:45.481 200 GET /api/notes/9Xvec3iKSrNv with 440 bytes took 1ms
+13:32:45.481 200 GET /api/notes/9Xvec3iKSrNv/backlink-count with 11 bytes took 0ms
+13:32:45.495 204 PUT /api/options with 0 bytes took 0ms
+13:32:45.597 200 GET /api/notes/rsm95qt5nzim with 2170 bytes took 1ms
+13:32:47.438 200 GET /api/autocomplete?query=&activeNoteId=9Xvec3iKSrNv with 5248 bytes took 1ms
+13:32:51.076 200 GET /api/autocomplete?query=t&activeNoteId=9Xvec3iKSrNv with 35020 bytes took 5ms
+13:32:51.125 200 GET /api/autocomplete?query=te&activeNoteId=9Xvec3iKSrNv with 29862 bytes took 3ms
+13:32:51.279 200 GET /api/autocomplete?query=teh&activeNoteId=9Xvec3iKSrNv with 2 bytes took 1ms
+13:32:51.415 200 GET /api/autocomplete?query=tehc&activeNoteId=9Xvec3iKSrNv with 2 bytes took 1ms
+13:32:51.487 200 GET /api/autocomplete?query=tehcn&activeNoteId=9Xvec3iKSrNv with 2 bytes took 1ms
+13:32:51.567 200 GET /api/autocomplete?query=tehcni&activeNoteId=9Xvec3iKSrNv with 2 bytes took 1ms
+13:32:51.919 200 GET /api/autocomplete?query=tehcn&activeNoteId=9Xvec3iKSrNv with 2 bytes took 1ms
+13:32:52.063 200 GET /api/autocomplete?query=tehc&activeNoteId=9Xvec3iKSrNv with 2 bytes took 0ms
+13:32:52.191 200 GET /api/autocomplete?query=teh&activeNoteId=9Xvec3iKSrNv with 2 bytes took 1ms
+13:32:52.618 200 GET /api/autocomplete?query=te&activeNoteId=9Xvec3iKSrNv with 29862 bytes took 4ms
+13:32:52.759 200 GET /api/autocomplete?query=tec&activeNoteId=9Xvec3iKSrNv with 500 bytes took 0ms
+13:32:52.863 200 GET /api/autocomplete?query=tech&activeNoteId=9Xvec3iKSrNv with 500 bytes took 1ms
+13:32:53.055 200 GET /api/autocomplete?query=techn&activeNoteId=9Xvec3iKSrNv with 311 bytes took 1ms
+13:32:53.159 200 GET /api/autocomplete?query=techni&activeNoteId=9Xvec3iKSrNv with 311 bytes took 1ms
+13:32:55.763 Marking branches zpa2TQ2YwQjk as deleted
+13:32:55.763 200 PUT /api/branches/zpa2TQ2YwQjk/move-to/pHdiUCqQu8ss with 219 bytes took 1ms
+13:32:57.332 204 PUT /api/branches/s0Z5Fa2NSnKs/expanded/0 with 0 bytes took 0ms
+13:33:03.361 200 GET /api/notes/v8joVFtWu3cp with 12095 bytes took 0ms
+13:33:03.362 200 GET /api/notes/v8joVFtWu3cp/backlink-count with 11 bytes took 0ms
+13:33:03.392 204 PUT /api/options with 0 bytes took 0ms
+13:33:11.916 204 PUT /api/branches/s0Z5Fa2NSnKs/expanded/1 with 0 bytes took 0ms
+13:33:12.737 200 GET /api/notes/uLqrdUpqhkX5 with 12566 bytes took 1ms
+13:33:12.737 200 GET /api/notes/uLqrdUpqhkX5/backlink-count with 11 bytes took 0ms
+13:33:12.757 204 PUT /api/options with 0 bytes took 0ms
+13:33:17.601 304 GET /api/setup/status with 59 bytes took 0ms
+13:33:17.604 200 POST /api/login/sync with 55 bytes took 1ms
+13:33:17.609 sync failed: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+13:33:30.057 200 GET /api/notes/CbSlJ1Pk7zhN with 6089 bytes took 0ms
+13:33:30.058 200 GET /api/notes/CbSlJ1Pk7zhN/backlink-count with 11 bytes took 1ms
+13:33:30.113 204 PUT /api/options with 0 bytes took 0ms
+13:33:45.768 200 GET /api/notes/CbSlJ1Pk7zhN with 6089 bytes took 0ms
+13:33:45.778 204 PUT /api/options with 0 bytes took 1ms
+13:33:48.771 200 GET /api/notes/wYvDO60EoSO2 with 5745 bytes took 1ms
+13:33:48.771 200 GET /api/notes/wYvDO60EoSO2/backlink-count with 11 bytes took 0ms
+13:33:48.841 204 PUT /api/options with 0 bytes took 1ms
+13:33:50.094 JS Error: Uncaught error: Message: Uncaught TypeError: Cannot read properties of null (reading 'debug'), URL: http://127.0.0.1:37840/libraries/fancytree/jquery.fancytree-all-deps.min.js, Line: 1, Column: 44499, Error object: {}, Stack: TypeError: Cannot read properties of null (reading 'debug')
+    at P.nodeKeydown (http://127.0.0.1:37840/libraries/fancytree/jquery.fancytree-all-deps.min.js:1:44499)
+    at P._callHook (http://127.0.0.1:37840/libraries/fancytree/jquery.fancytree-all-deps.min.js:1:33919)
+    at HTMLUListElement.<anonymous> (http://127.0.0.1:37840/libraries/fancytree/jquery.fancytree-all-deps.min.js:1:68759)
+    at HTMLUListElement.dispatch (http://127.0.0.1:37840/libraries/jquery.min.js:2:43064)
+    at HTMLUListElement.v.handle (http://127.0.0.1:37840/libraries/jquery.min.js:2:41048)
+Stack: Error
+    at Object.N [as logError] (http://127.0.0.1:37840/app-dist/desktop.js:2:100894)
+    at Hn.window.onerror (http://127.0.0.1:37840/app-dist/desktop.js:2:529664)
+13:33:51.270 200 GET /api/search-templates with 2 bytes took 0ms
+13:33:51.271 200 GET /api/search-templates with 2 bytes took 0ms
+13:33:53.336 200 POST /api/bulk-action/affected-notes with 23 bytes took 0ms
+13:33:53.337 200 POST /api/tree/load with 1560 bytes took 0ms
+13:33:56.069 200 GET /api/notes/Y3pPpohIOn7b with 11824 bytes took 0ms
+13:33:56.070 200 GET /api/notes/Y3pPpohIOn7b/backlink-count with 11 bytes took 0ms
+13:33:56.092 204 PUT /api/options with 0 bytes took 1ms
+13:33:56.799 200 GET /api/notes/wYvDO60EoSO2 with 5745 bytes took 0ms
+13:33:56.799 200 GET /api/notes/wYvDO60EoSO2/backlink-count with 11 bytes took 0ms
+13:33:57.095 204 PUT /api/options with 0 bytes took 1ms
+13:33:57.293 JS Error: Uncaught error: Message: Uncaught TypeError: Cannot read properties of null (reading 'debug'), URL: http://127.0.0.1:37840/libraries/fancytree/jquery.fancytree-all-deps.min.js, Line: 1, Column: 44499, Error object: {}, Stack: TypeError: Cannot read properties of null (reading 'debug')
+    at P.nodeKeydown (http://127.0.0.1:37840/libraries/fancytree/jquery.fancytree-all-deps.min.js:1:44499)
+    at P._callHook (http://127.0.0.1:37840/libraries/fancytree/jquery.fancytree-all-deps.min.js:1:33919)
+    at HTMLUListElement.<anonymous> (http://127.0.0.1:37840/libraries/fancytree/jquery.fancytree-all-deps.min.js:1:68759)
+    at HTMLUListElement.dispatch (http://127.0.0.1:37840/libraries/jquery.min.js:2:43064)
+    at HTMLUListElement.v.handle (http://127.0.0.1:37840/libraries/jquery.min.js:2:41048)
+Stack: Error
+    at Object.N [as logError] (http://127.0.0.1:37840/app-dist/desktop.js:2:100894)
+    at Hn.window.onerror (http://127.0.0.1:37840/app-dist/desktop.js:2:529664)
+13:33:58.341 200 GET /api/autocomplete?query=&activeNoteId=wYvDO60EoSO2 with 5913 bytes took 0ms
+13:33:59.936 200 GET /api/autocomplete?query=w&activeNoteId=wYvDO60EoSO2 with 13272 bytes took 1ms
+13:33:59.983 200 GET /api/autocomplete?query=we&activeNoteId=wYvDO60EoSO2 with 4750 bytes took 1ms
+13:34:00.191 200 GET /api/autocomplete?query=web&activeNoteId=wYvDO60EoSO2 with 1819 bytes took 0ms
+13:34:00.438 200 GET /api/autocomplete?query=web-&activeNoteId=wYvDO60EoSO2 with 199 bytes took 0ms
+13:34:00.751 200 GET /api/autocomplete?query=web-d&activeNoteId=wYvDO60EoSO2 with 199 bytes took 1ms
+13:34:01.783 JS Error: No path to move to.
+Stack: Error
+    at N (http://127.0.0.1:37840/app-dist/desktop.js:2:100894)
+    at HTMLFormElement.<anonymous> (http://127.0.0.1:37840/app-dist/desktop.js:2:482240)
+    at HTMLFormElement.dispatch (http://127.0.0.1:37840/libraries/jquery.min.js:2:43064)
+    at HTMLFormElement.v.handle (http://127.0.0.1:37840/libraries/jquery.min.js:2:41048)
+13:34:03.567 200 GET /api/autocomplete?query=web-de&activeNoteId=wYvDO60EoSO2 with 199 bytes took 1ms
+13:34:03.711 200 GET /api/autocomplete?query=web-dev&activeNoteId=wYvDO60EoSO2 with 199 bytes took 1ms
+13:34:04.183 200 GET /api/autocomplete?query=Web-Development&activeNoteId=wYvDO60EoSO2 with 199 bytes took 0ms
+13:34:05.074 Marking branches GXVsT7DgbhU8 as deleted
+13:34:05.075 200 PUT /api/branches/GXVsT7DgbhU8/move-to/s0Z5Fa2NSnKs with 219 bytes took 1ms
+13:34:05.089 Marking branches ZlnPwO0UeqQT as deleted
+13:34:05.089 200 PUT /api/branches/ZlnPwO0UeqQT/move-to/s0Z5Fa2NSnKs with 219 bytes took 1ms
+13:34:05.092 Marking branches ERWtq96u5yD3 as deleted
+13:34:05.092 200 PUT /api/branches/ERWtq96u5yD3/move-to/s0Z5Fa2NSnKs with 219 bytes took 1ms
+13:34:05.093 Marking branches okC9PxADVqya as deleted
+13:34:05.094 200 PUT /api/branches/okC9PxADVqya/move-to/s0Z5Fa2NSnKs with 219 bytes took 1ms
+13:34:07.716 200 GET /api/notes/TE08lWLNus3b with 435 bytes took 0ms
+13:34:07.717 200 GET /api/notes/TE08lWLNus3b/backlink-count with 11 bytes took 0ms
+13:34:07.742 204 PUT /api/options with 0 bytes took 1ms
+13:34:09.550 200 POST /api/delete-notes-preview with 60 bytes took 0ms
+13:34:10.480 Sending message to all clients: {"type":"taskProgressCount","taskId":"OpP2yS22Ct","taskType":"delete-notes","progressCount":0}
+13:34:10.481 Marking branches r9qNGYE9vuS2 as deleted
+13:34:10.481 Deleting note TE08lWLNus3b
+13:34:10.481 Marking notes TE08lWLNus3b as deleted
+13:34:10.481 Sending message to all clients: {"type":"taskSucceeded","taskId":"OpP2yS22Ct","taskType":"delete-notes"}
+13:34:10.481 200 DELETE /api/branches/r9qNGYE9vuS2?taskId=OpP2yS22Ct&eraseNotes=false&last=true with 20 bytes took 1ms
+13:34:10.498 200 POST /api/tree/load with 42 bytes took 0ms
+13:34:10.500 200 GET /api/search/%23workspace with 2 bytes took 1ms
+13:34:10.505 204 PUT /api/options with 0 bytes took 1ms
+13:34:10.521 200 GET /api/notes/Yaow9A9viW2B with 2640 bytes took 0ms
+13:34:10.521 200 GET /api/notes/Yaow9A9viW2B/backlink-count with 11 bytes took 0ms
+13:34:11.510 204 PUT /api/options with 0 bytes took 1ms
+13:34:13.425 200 GET /api/notes/dCyuIf4bt826 with 7979 bytes took 0ms
+13:34:13.426 200 GET /api/notes/dCyuIf4bt826/backlink-count with 11 bytes took 0ms
+13:34:13.505 204 PUT /api/options with 0 bytes took 1ms
+13:34:14.805 200 GET /api/notes/dCyuIf4bt826 with 7979 bytes took 0ms
+13:34:14.815 204 PUT /api/options with 0 bytes took 1ms
+13:34:16.297 204 PUT /api/options with 0 bytes took 1ms
+13:34:17.298 204 PUT /api/options with 0 bytes took 0ms
+13:34:17.617 304 GET /api/setup/status with 59 bytes took 1ms
+13:34:17.619 200 POST /api/login/sync with 55 bytes took 1ms
+13:34:17.624 sync failed: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+13:34:20.796 200 GET /api/notes/ujoqYxM7h3cD with 8439 bytes took 0ms
+13:34:20.797 200 GET /api/notes/ujoqYxM7h3cD/backlink-count with 11 bytes took 0ms
+13:34:20.879 204 PUT /api/options with 0 bytes took 0ms
+13:34:22.984 200 POST /api/delete-notes-preview with 60 bytes took 1ms
+13:34:24.376 Sending message to all clients: {"type":"taskProgressCount","taskId":"q3NP4DxcYI","taskType":"delete-notes","progressCount":0}
+13:34:24.377 Marking branches c7wq0OGvc6Uw as deleted
+13:34:24.377 Deleting note ujoqYxM7h3cD
+13:34:24.377 Marking notes ujoqYxM7h3cD as deleted
+13:34:24.377 Sending message to all clients: {"type":"taskSucceeded","taskId":"q3NP4DxcYI","taskType":"delete-notes"}
+13:34:24.377 200 DELETE /api/branches/c7wq0OGvc6Uw?taskId=q3NP4DxcYI&eraseNotes=false&last=true with 20 bytes took 1ms
+13:34:24.405 200 POST /api/tree/load with 42 bytes took 0ms
+13:34:24.406 200 GET /api/search/%23workspace with 2 bytes took 0ms
+13:34:24.413 204 PUT /api/options with 0 bytes took 1ms
+13:34:24.426 200 GET /api/notes/GNUnWq0PgAyN with 7753 bytes took 1ms
+13:34:24.426 200 GET /api/notes/GNUnWq0PgAyN/backlink-count with 11 bytes took 0ms
+13:34:25.403 200 GET /api/notes/Efyexj30Mu6F with 3671 bytes took 0ms
+13:34:25.403 200 GET /api/notes/Efyexj30Mu6F/backlink-count with 11 bytes took 0ms
+13:34:25.455 204 PUT /api/options with 0 bytes took 1ms
+13:34:26.249 200 GET /api/notes/qWJEnZn3jHQG with 3908 bytes took 0ms
+13:34:26.250 200 GET /api/notes/qWJEnZn3jHQG/backlink-count with 11 bytes took 0ms
+13:34:26.458 204 PUT /api/options with 0 bytes took 0ms
+13:34:26.658 200 GET /api/notes/dCyuIf4bt826 with 7979 bytes took 0ms
+13:34:26.658 200 GET /api/notes/dCyuIf4bt826/backlink-count with 11 bytes took 0ms
+13:34:26.995 200 GET /api/notes/v8joVFtWu3cp with 12095 bytes took 1ms
+13:34:26.996 200 GET /api/notes/v8joVFtWu3cp/backlink-count with 11 bytes took 1ms
+13:34:27.462 204 PUT /api/options with 0 bytes took 0ms
+13:34:32.575 200 POST /api/delete-notes-preview with 60 bytes took 0ms
+13:34:33.944 Sending message to all clients: {"type":"taskProgressCount","taskId":"YOgAI1wuSp","taskType":"delete-notes","progressCount":0}
+13:34:33.944 Marking branches k8qmoPZiDXIn as deleted
+13:34:33.944 Deleting note v8joVFtWu3cp
+13:34:33.944 Marking notes v8joVFtWu3cp as deleted
+13:34:33.944 Sending message to all clients: {"type":"taskSucceeded","taskId":"YOgAI1wuSp","taskType":"delete-notes"}
+13:34:33.945 200 DELETE /api/branches/k8qmoPZiDXIn?taskId=YOgAI1wuSp&eraseNotes=false&last=true with 20 bytes took 1ms
+13:34:33.961 200 POST /api/tree/load with 42 bytes took 1ms
+13:34:33.961 200 GET /api/search/%23workspace with 2 bytes took 0ms
+13:34:33.968 204 PUT /api/options with 0 bytes took 1ms
+13:34:33.982 200 GET /api/notes/Yaow9A9viW2B with 2640 bytes took 1ms
+13:34:33.982 200 GET /api/notes/Yaow9A9viW2B/backlink-count with 11 bytes took 0ms
+13:34:34.969 204 PUT /api/options with 0 bytes took 1ms
+13:34:36.041 200 GET /api/notes/uLqrdUpqhkX5 with 12566 bytes took 0ms
+13:34:36.041 200 GET /api/notes/uLqrdUpqhkX5/backlink-count with 11 bytes took 0ms
+13:34:36.062 204 PUT /api/options with 0 bytes took 1ms
+13:34:38.431 200 GET /api/notes/uLqrdUpqhkX5 with 12566 bytes took 1ms
+13:34:42.689 200 GET /api/notes/s6L2rc6es1kc with 6966 bytes took 0ms
+13:34:42.690 200 GET /api/notes/s6L2rc6es1kc/backlink-count with 11 bytes took 1ms
+13:34:42.737 204 PUT /api/options with 0 bytes took 1ms
+13:34:46.262 200 GET /api/autocomplete?query=&activeNoteId=s6L2rc6es1kc with 6356 bytes took 0ms
+13:34:47.660 200 GET /api/autocomplete?query=t&activeNoteId=s6L2rc6es1kc with 33973 bytes took 5ms
+13:34:47.730 200 GET /api/autocomplete?query=te&activeNoteId=s6L2rc6es1kc with 28871 bytes took 3ms
+13:34:47.942 200 GET /api/autocomplete?query=teh&activeNoteId=s6L2rc6es1kc with 2 bytes took 0ms
+13:34:48.569 200 GET /api/autocomplete?query=te&activeNoteId=s6L2rc6es1kc with 28871 bytes took 3ms
+13:34:48.671 200 GET /api/autocomplete?query=tec&activeNoteId=s6L2rc6es1kc with 500 bytes took 0ms
+13:34:48.751 200 GET /api/autocomplete?query=tech&activeNoteId=s6L2rc6es1kc with 500 bytes took 1ms
+13:34:48.919 200 GET /api/autocomplete?query=techn&activeNoteId=s6L2rc6es1kc with 311 bytes took 1ms
+13:34:48.999 200 GET /api/autocomplete?query=techni&activeNoteId=s6L2rc6es1kc with 311 bytes took 1ms
+13:34:50.807 200 GET /api/autocomplete?query=Technical%20Note&activeNoteId=s6L2rc6es1kc with 1173 bytes took 0ms
+13:34:50.935 200 GET /api/autocomplete?query=Technical%20Not&activeNoteId=s6L2rc6es1kc with 1414 bytes took 1ms
+13:34:51.616 200 GET /api/autocomplete?query=w&activeNoteId=s6L2rc6es1kc with 12548 bytes took 2ms
+13:34:51.703 200 GET /api/autocomplete?query=we&activeNoteId=s6L2rc6es1kc with 4750 bytes took 1ms
+13:34:51.927 200 GET /api/autocomplete?query=web&activeNoteId=s6L2rc6es1kc with 1819 bytes took 1ms
+13:34:52.231 200 GET /api/autocomplete?query=web-&activeNoteId=s6L2rc6es1kc with 199 bytes took 1ms
+13:34:52.575 200 GET /api/autocomplete?query=web-d&activeNoteId=s6L2rc6es1kc with 199 bytes took 1ms
+13:34:55.271 200 GET /api/autocomplete?query=web-de&activeNoteId=s6L2rc6es1kc with 199 bytes took 1ms
+13:34:55.375 200 GET /api/autocomplete?query=web-dev&activeNoteId=s6L2rc6es1kc with 199 bytes took 1ms
+13:34:55.737 200 GET /api/autocomplete?query=Web-Development&activeNoteId=s6L2rc6es1kc with 199 bytes took 0ms
+13:34:56.595 Marking branches Ns51Apffo5ms as deleted
+13:34:56.596 200 PUT /api/branches/Ns51Apffo5ms/move-to/s0Z5Fa2NSnKs with 219 bytes took 1ms
+13:34:59.284 200 GET /api/notes/YvsVccqnEKMl with 6712 bytes took 0ms
+13:34:59.285 200 GET /api/notes/YvsVccqnEKMl/backlink-count with 11 bytes took 1ms
+13:34:59.359 204 PUT /api/options with 0 bytes took 1ms
+13:35:01.124 200 GET /api/notes/kfovyJkPyMP0 with 435 bytes took 1ms
+13:35:01.124 200 GET /api/notes/kfovyJkPyMP0/backlink-count with 11 bytes took 0ms
+13:35:01.173 204 PUT /api/options with 0 bytes took 1ms
+13:35:01.180 200 GET /api/notes/MkPUGNJ7ILmq with 2250 bytes took 1ms
+13:35:03.327 200 GET /api/notes/YvsVccqnEKMl with 6712 bytes took 0ms
+13:35:03.327 200 GET /api/notes/YvsVccqnEKMl/backlink-count with 11 bytes took 0ms
+13:35:03.384 204 PUT /api/options with 0 bytes took 1ms
+13:35:06.344 204 PUT /api/notes/YvsVccqnEKMl/content with 0 bytes took 3ms
+13:35:06.347 200 GET /api/notes/YvsVccqnEKMl with 439 bytes took 0ms
+13:35:09.288 200 GET /api/notes/kfovyJkPyMP0 with 435 bytes took 0ms
+13:35:09.288 200 GET /api/notes/kfovyJkPyMP0/backlink-count with 11 bytes took 0ms
+13:35:09.305 204 PUT /api/options with 0 bytes took 1ms
+13:35:09.307 200 GET /api/notes/MkPUGNJ7ILmq with 2250 bytes took 0ms
+13:35:10.707 204 PUT /api/notes/kfovyJkPyMP0/content with 0 bytes took 1ms
+13:35:10.710 200 GET /api/notes/kfovyJkPyMP0 with 7050 bytes took 0ms
+13:35:15.296 200 GET /api/notes/Yaow9A9viW2B with 2640 bytes took 0ms
+13:35:15.297 200 GET /api/notes/Yaow9A9viW2B/backlink-count with 11 bytes took 0ms
+13:35:15.348 204 PUT /api/options with 0 bytes took 0ms
+13:35:15.769 200 GET /api/notes/YvsVccqnEKMl with 439 bytes took 0ms
+13:35:15.770 200 GET /api/notes/YvsVccqnEKMl/backlink-count with 11 bytes took 0ms
+13:35:16.353 204 PUT /api/options with 0 bytes took 1ms
+13:35:16.495 200 POST /api/delete-notes-preview with 60 bytes took 0ms
+13:35:17.628 304 GET /api/setup/status with 59 bytes took 0ms
+13:35:17.630 200 POST /api/login/sync with 55 bytes took 0ms
+13:35:17.635 sync failed: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+13:35:17.896 Sending message to all clients: {"type":"taskProgressCount","taskId":"UT9RDbEpOn","taskType":"delete-notes","progressCount":0}
+13:35:17.896 Marking branches C02dzMcfulxi as deleted
+13:35:17.896 Deleting note YvsVccqnEKMl
+13:35:17.896 Marking notes YvsVccqnEKMl as deleted
+13:35:17.897 Sending message to all clients: {"type":"taskSucceeded","taskId":"UT9RDbEpOn","taskType":"delete-notes"}
+13:35:17.897 200 DELETE /api/branches/C02dzMcfulxi?taskId=UT9RDbEpOn&eraseNotes=false&last=true with 20 bytes took 1ms
+13:35:17.916 200 POST /api/tree/load with 42 bytes took 0ms
+13:35:17.917 200 GET /api/search/%23workspace with 2 bytes took 0ms
+13:35:17.923 204 PUT /api/options with 0 bytes took 0ms
+13:35:17.939 200 GET /api/notes/Efyexj30Mu6F with 3671 bytes took 0ms
+13:35:17.939 200 GET /api/notes/Efyexj30Mu6F/backlink-count with 11 bytes took 0ms
+13:35:18.928 204 PUT /api/options with 0 bytes took 0ms
+13:35:19.338 200 GET /api/notes/Yaow9A9viW2B with 2640 bytes took 0ms
+13:35:19.339 200 GET /api/notes/Yaow9A9viW2B/backlink-count with 11 bytes took 1ms
+13:35:19.931 204 PUT /api/options with 0 bytes took 1ms
+13:35:23.401 200 GET /api/notes/Efyexj30Mu6F with 3671 bytes took 0ms
+13:35:23.401 200 GET /api/notes/Efyexj30Mu6F/backlink-count with 11 bytes took 0ms
+13:35:23.442 204 PUT /api/options with 0 bytes took 1ms
+13:35:28.078 200 GET /api/autocomplete?query=&activeNoteId=Efyexj30Mu6F with 6587 bytes took 0ms
+13:35:29.439 200 GET /api/autocomplete?query=w&activeNoteId=Efyexj30Mu6F with 12290 bytes took 1ms
+13:35:29.495 200 GET /api/autocomplete?query=we&activeNoteId=Efyexj30Mu6F with 4750 bytes took 1ms
+13:35:29.734 200 GET /api/autocomplete?query=web&activeNoteId=Efyexj30Mu6F with 1819 bytes took 0ms
+13:35:29.766 200 GET /api/autocomplete?query=webg&activeNoteId=Efyexj30Mu6F with 2 bytes took 0ms
+13:35:30.294 200 GET /api/autocomplete?query=web&activeNoteId=Efyexj30Mu6F with 1819 bytes took 0ms
+13:35:30.454 200 GET /api/autocomplete?query=we&activeNoteId=Efyexj30Mu6F with 4750 bytes took 0ms
+13:35:30.518 200 GET /api/autocomplete?query=web&activeNoteId=Efyexj30Mu6F with 1819 bytes took 0ms
+13:35:30.750 200 GET /api/autocomplete?query=web-&activeNoteId=Efyexj30Mu6F with 199 bytes took 0ms
+13:35:31.022 200 GET /api/autocomplete?query=web-d&activeNoteId=Efyexj30Mu6F with 199 bytes took 0ms
+13:35:31.262 200 GET /api/autocomplete?query=web-de&activeNoteId=Efyexj30Mu6F with 199 bytes took 0ms
+13:35:31.350 200 GET /api/autocomplete?query=web-dev&activeNoteId=Efyexj30Mu6F with 199 bytes took 0ms
+13:35:34.014 200 GET /api/autocomplete?query=web-deve&activeNoteId=Efyexj30Mu6F with 199 bytes took 0ms
+13:35:34.126 200 GET /api/autocomplete?query=web-devev&activeNoteId=Efyexj30Mu6F with 2 bytes took 0ms
+13:35:35.255 200 GET /api/autocomplete?query=web-deve&activeNoteId=Efyexj30Mu6F with 199 bytes took 1ms
+13:35:35.350 200 GET /api/autocomplete?query=web-deveb&activeNoteId=Efyexj30Mu6F with 2 bytes took 0ms
+13:35:36.230 200 GET /api/autocomplete?query=web-deve&activeNoteId=Efyexj30Mu6F with 199 bytes took 0ms
+13:35:36.992 200 GET /api/autocomplete?query=Web-Development&activeNoteId=Efyexj30Mu6F with 199 bytes took 0ms
+13:35:39.267 Marking branches m64d2Kik5nev as deleted
+13:35:39.267 200 PUT /api/branches/m64d2Kik5nev/move-to/s0Z5Fa2NSnKs with 220 bytes took 1ms
+13:35:39.274 Marking branches AIlO0W3nmUUJ as deleted
+13:35:39.275 200 PUT /api/branches/AIlO0W3nmUUJ/move-to/s0Z5Fa2NSnKs with 220 bytes took 1ms
+13:35:39.276 Marking branches eon17LsnZGYL as deleted
+13:35:39.276 200 PUT /api/branches/eon17LsnZGYL/move-to/s0Z5Fa2NSnKs with 220 bytes took 1ms
+13:35:39.284 Marking branches t7LwWTWmmJd1 as deleted
+13:35:39.285 200 PUT /api/branches/t7LwWTWmmJd1/move-to/s0Z5Fa2NSnKs with 220 bytes took 1ms
+13:35:39.286 Marking branches AUExHsUvRAMV as deleted
+13:35:39.287 200 PUT /api/branches/AUExHsUvRAMV/move-to/s0Z5Fa2NSnKs with 220 bytes took 1ms
+13:35:42.292 200 GET /api/notes/AtGPxFrynICM with 432 bytes took 0ms
+13:35:42.292 200 GET /api/notes/AtGPxFrynICM/backlink-count with 11 bytes took 0ms
+13:35:42.316 204 PUT /api/options with 0 bytes took 1ms
+13:35:42.928 200 GET /api/notes/ZYGkAvSLdkL5 with 444 bytes took 0ms
+13:35:42.929 200 GET /api/notes/ZYGkAvSLdkL5/backlink-count with 11 bytes took 1ms
+13:35:43.316 204 PUT /api/options with 0 bytes took 0ms
+13:35:45.872 200 GET /api/notes/AtGPxFrynICM with 432 bytes took 1ms
+13:35:45.872 200 GET /api/notes/AtGPxFrynICM/backlink-count with 11 bytes took 0ms
+13:35:45.884 204 PUT /api/options with 0 bytes took 0ms
+13:35:46.759 200 GET /api/notes/ZYGkAvSLdkL5 with 444 bytes took 0ms
+13:35:46.761 200 GET /api/notes/ZYGkAvSLdkL5/backlink-count with 11 bytes took 0ms
+13:35:46.887 204 PUT /api/options with 0 bytes took 1ms
+13:35:47.367 200 GET /api/search-templates with 2 bytes took 0ms
+13:35:47.368 200 GET /api/search-templates with 2 bytes took 0ms
+13:35:49.132 200 GET /api/autocomplete?query=&activeNoteId=ZYGkAvSLdkL5 with 6638 bytes took 1ms
+13:35:51.438 200 POST /api/delete-notes-preview with 75 bytes took 1ms
+13:35:51.984 Sending message to all clients: {"type":"taskProgressCount","taskId":"NqgugCG4t5","taskType":"delete-notes","progressCount":0}
+13:35:51.984 Marking branches oY5uv6X0sj4Q as deleted
+13:35:51.984 Marking branches aGAbC25eOQdv as deleted
+13:35:51.984 Deleting note AtGPxFrynICM
+13:35:51.984 Marking notes AtGPxFrynICM as deleted
+13:35:51.984 Deleting note ZYGkAvSLdkL5
+13:35:51.985 Marking notes ZYGkAvSLdkL5 as deleted
+13:35:51.985 Sending message to all clients: {"type":"taskSucceeded","taskId":"NqgugCG4t5","taskType":"delete-notes"}
+13:35:51.992 200 DELETE /api/branches/oY5uv6X0sj4Q?taskId=NqgugCG4t5&eraseNotes=false&last=true with 20 bytes took 8ms
+13:35:51.993 200 POST /api/tree/load with 42 bytes took 0ms
+13:35:52.010 200 POST /api/tree/load with 42 bytes took 0ms
+13:35:52.011 200 GET /api/search/%23workspace with 2 bytes took 0ms
+13:35:52.018 204 PUT /api/options with 0 bytes took 2ms
+13:35:52.030 200 GET /api/notes/ytkAALq5c3pE with 433 bytes took 0ms
+13:35:52.030 200 GET /api/notes/ytkAALq5c3pE/backlink-count with 11 bytes took 0ms
+13:35:52.047 200 GET /api/notes/zOdqRTXR4EGO with 3405 bytes took 1ms
+13:35:53.021 204 PUT /api/options with 0 bytes took 0ms
+13:35:54.096 200 GET /api/notes/hFTRpBUVwuI4 with 440 bytes took 1ms
+13:35:54.096 200 GET /api/notes/hFTRpBUVwuI4/backlink-count with 11 bytes took 0ms
+13:35:54.108 204 PUT /api/options with 0 bytes took 1ms
+13:35:54.209 200 GET /api/notes/wxBd9oXuzZOD with 432 bytes took 0ms
+13:35:54.212 200 GET /api/notes/5N5zsLNo3cbc with 2126 bytes took 1ms
+13:35:54.217 200 GET /api/notes/uLqrdUpqhkX5 with 12566 bytes took 0ms
+13:35:54.220 200 GET /api/notes/kfovyJkPyMP0 with 7050 bytes took 0ms
+13:35:54.224 200 GET /api/notes/CbSlJ1Pk7zhN with 6089 bytes took 1ms
+13:35:54.226 200 GET /api/notes/XGINIJ6QwEHV with 2780 bytes took 0ms
+13:35:54.229 200 GET /api/notes/Y3pPpohIOn7b with 11824 bytes took 1ms
+13:35:54.246 200 GET /api/notes/wYvDO60EoSO2 with 5745 bytes took 0ms
+13:35:54.256 200 GET /api/notes/s6L2rc6es1kc with 6966 bytes took 1ms
+13:35:54.258 200 GET /api/notes/Efyexj30Mu6F with 3671 bytes took 0ms
+13:35:54.262 200 GET /api/notes/Yaow9A9viW2B with 2640 bytes took 0ms
+13:35:54.265 200 GET /api/notes/dCyuIf4bt826 with 7979 bytes took 0ms
+13:35:54.270 200 GET /api/notes/qWJEnZn3jHQG with 3908 bytes took 1ms
+13:35:54.283 200 GET /api/notes/GNUnWq0PgAyN with 7753 bytes took 0ms
+13:35:55.112 204 PUT /api/branches/pHdiUCqQu8ss/expanded/0 with 0 bytes took 1ms
+13:35:56.300 200 GET /api/notes/n6iRE2zsKdrw/backlink-count with 11 bytes took 0ms
+13:35:56.301 200 GET /api/notes/n6iRE2zsKdrw with 440 bytes took 1ms
+13:35:56.308 204 PUT /api/options with 0 bytes took 1ms
+13:35:56.414 200 GET /api/notes/hFTRpBUVwuI4 with 440 bytes took 1ms
+13:35:56.417 200 GET /api/notes/3SOIJAUwnVcp with 2624 bytes took 1ms
+13:35:56.420 200 GET /api/notes/emJo3gvb2ngn with 430 bytes took 0ms
+13:35:56.422 200 GET /api/notes/ZwloeVTBS41v with 432 bytes took 0ms
+13:35:56.423 200 GET /api/notes/ppXUUjl570zv with 432 bytes took 0ms
+13:35:56.425 200 GET /api/notes/ZW8u4z0tKxeE with 435 bytes took 0ms
+13:35:56.427 200 GET /api/notes/FAUZVxMsRoGZ with 430 bytes took 1ms
+13:35:56.433 200 GET /api/notes/9Xvec3iKSrNv with 440 bytes took 0ms
+13:35:56.961 204 PUT /api/branches/pHdiUCqQu8ss/expanded/1 with 0 bytes took 0ms
+13:35:58.878 204 PUT /api/branches/s0Z5Fa2NSnKs/expanded/0 with 0 bytes took 0ms
+13:35:59.762 204 PUT /api/branches/pHdiUCqQu8ss/expanded/0 with 0 bytes took 1ms
+13:36:03.554 200 GET /api/notes/globalnotemap/backlink-count with 11 bytes took 0ms
+13:36:03.558 204 PUT /api/options with 0 bytes took 1ms
+13:36:03.598 200 POST /api/note-map/root/tree with 11690 bytes took 1ms
+13:36:17.631 304 GET /api/setup/status with 59 bytes took 2ms
+13:36:17.633 200 POST /api/login/sync with 55 bytes took 0ms
+13:36:17.638 sync failed: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+13:37:17.635 304 GET /api/setup/status with 59 bytes took 1ms
+13:37:17.637 200 POST /api/login/sync with 55 bytes took 0ms
+13:37:17.646 sync failed: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+13:37:27.642 200 GET /api/notes/ytkAALq5c3pE with 433 bytes took 0ms
+13:37:27.643 200 GET /api/notes/ytkAALq5c3pE/backlink-count with 11 bytes took 0ms
+13:37:27.651 204 PUT /api/options with 0 bytes took 0ms
+13:37:28.047 200 GET /api/notes/zOdqRTXR4EGO with 3405 bytes took 0ms
+13:37:28.318 200 GET /api/notes/n6iRE2zsKdrw/backlink-count with 11 bytes took 0ms
+13:37:28.319 200 GET /api/notes/n6iRE2zsKdrw with 440 bytes took 0ms
+13:37:28.427 200 GET /api/notes/hFTRpBUVwuI4 with 440 bytes took 0ms
+13:37:28.430 200 GET /api/notes/3SOIJAUwnVcp with 2624 bytes took 1ms
+13:37:28.432 200 GET /api/notes/emJo3gvb2ngn with 430 bytes took 0ms
+13:37:28.434 200 GET /api/notes/ZwloeVTBS41v with 432 bytes took 0ms
+13:37:28.440 200 GET /api/notes/ppXUUjl570zv with 432 bytes took 0ms
+13:37:28.441 200 GET /api/notes/ZW8u4z0tKxeE with 435 bytes took 0ms
+13:37:28.443 200 GET /api/notes/FAUZVxMsRoGZ with 430 bytes took 0ms
+13:37:28.444 200 GET /api/notes/9Xvec3iKSrNv with 440 bytes took 0ms
+13:37:28.655 204 PUT /api/options with 0 bytes took 1ms
+13:37:29.994 Created new note 'EkbToIutKsQu', branch 'w0mgY9lKQLJ1' of type 'text', mime 'text/html'
+13:37:29.995 200 POST /api/notes/root/children?target=into&targetBranchId= with 488 bytes took 4ms
+13:37:29.996 200 POST /api/tree/load with 699 bytes took 0ms
+13:37:30.015 200 GET /api/notes/EkbToIutKsQu with 433 bytes took 1ms
+13:37:30.015 200 GET /api/notes/EkbToIutKsQu/backlink-count with 11 bytes took 0ms
+13:37:30.028 204 PUT /api/options with 0 bytes took 1ms
+13:37:31.656 200 PUT /api/notes/EkbToIutKsQu/title with 288 bytes took 0ms
+13:37:31.659 200 GET /api/notes/EkbToIutKsQu with 426 bytes took 0ms
+13:37:32.657 200 PUT /api/notes/EkbToIutKsQu/title with 294 bytes took 0ms
+13:37:33.661 200 PUT /api/notes/EkbToIutKsQu/title with 296 bytes took 1ms
+13:37:33.663 200 GET /api/notes/EkbToIutKsQu with 434 bytes took 0ms
+13:37:34.663 200 PUT /api/notes/EkbToIutKsQu/title with 302 bytes took 0ms
+13:37:35.126 200 GET /api/notes/EkbToIutKsQu with 440 bytes took 1ms
+13:37:37.007 200 GET /api/notes/n6iRE2zsKdrw/backlink-count with 11 bytes took 0ms
+13:37:37.013 200 GET /api/notes/n6iRE2zsKdrw with 440 bytes took 0ms
+13:37:37.021 204 PUT /api/options with 0 bytes took 1ms
+13:37:37.126 200 GET /api/notes/hFTRpBUVwuI4 with 440 bytes took 0ms
+13:37:37.132 200 GET /api/notes/3SOIJAUwnVcp with 2624 bytes took 1ms
+13:37:37.135 200 GET /api/notes/emJo3gvb2ngn with 430 bytes took 0ms
+13:37:37.142 200 GET /api/notes/ZwloeVTBS41v with 432 bytes took 0ms
+13:37:37.146 200 GET /api/notes/ppXUUjl570zv with 432 bytes took 0ms
+13:37:37.149 200 GET /api/notes/ZW8u4z0tKxeE with 435 bytes took 0ms
+13:37:37.153 200 GET /api/notes/FAUZVxMsRoGZ with 430 bytes took 0ms
+13:37:37.160 200 GET /api/notes/9Xvec3iKSrNv with 440 bytes took 0ms
+13:37:41.290 200 GET /api/autocomplete?query=p&activeNoteId=n6iRE2zsKdrw with 17316 bytes took 3ms
+13:37:41.391 200 GET /api/autocomplete?query=pe&activeNoteId=n6iRE2zsKdrw with 1259 bytes took 1ms
+13:37:41.470 200 GET /api/autocomplete?query=per&activeNoteId=n6iRE2zsKdrw with 150 bytes took 0ms
+13:37:42.644 Marking branches pHdiUCqQu8ss as deleted
+13:37:42.645 200 PUT /api/branches/pHdiUCqQu8ss/move-to/w0mgY9lKQLJ1 with 220 bytes took 2ms
+13:37:44.632 200 GET /api/notes/ytkAALq5c3pE with 433 bytes took 1ms
+13:37:44.632 200 GET /api/notes/ytkAALq5c3pE/backlink-count with 11 bytes took 0ms
+13:37:44.647 204 PUT /api/options with 0 bytes took 0ms
+13:37:44.746 200 GET /api/notes/zOdqRTXR4EGO with 3405 bytes took 1ms
+13:37:45.160 200 GET /api/notes/EkbToIutKsQu with 440 bytes took 1ms
+13:37:45.160 200 GET /api/notes/EkbToIutKsQu/backlink-count with 11 bytes took 0ms
+13:37:45.273 200 GET /api/notes/n6iRE2zsKdrw with 440 bytes took 1ms
+13:37:45.648 204 PUT /api/options with 0 bytes took 1ms
+13:37:45.982 200 GET /api/notes/ytkAALq5c3pE with 433 bytes took 0ms
+13:37:45.983 200 GET /api/notes/ytkAALq5c3pE/backlink-count with 11 bytes took 0ms
+13:37:46.094 200 GET /api/notes/zOdqRTXR4EGO with 3405 bytes took 0ms
+13:37:46.651 204 PUT /api/options with 0 bytes took 1ms
+13:37:46.871 200 GET /api/notes/zOdqRTXR4EGO/backlink-count with 11 bytes took 0ms
+13:37:46.906 200 GET /api/tree?subTreeNoteId=ytkAALq5c3pE with 1090 bytes took 0ms
+13:37:46.930 204 PUT /api/branches/s1i2ARPL4LHY/expanded/1 with 0 bytes took 1ms
+13:37:47.653 204 PUT /api/options with 0 bytes took 1ms
+13:37:54.565 200 GET /api/notes/root with 421 bytes took 0ms
+13:37:54.565 200 GET /api/notes/root/backlink-count with 11 bytes took 0ms
+13:37:54.583 204 PUT /api/options with 0 bytes took 1ms
+13:37:54.593 200 GET /api/notes/ytkAALq5c3pE with 433 bytes took 1ms
+13:37:54.601 200 GET /api/notes/EkbToIutKsQu with 440 bytes took 0ms
+13:37:55.327 Created new note '1iecD0eiIJE0', branch 'eXXId0ZjLlxX' of type 'text', mime 'text/html'
+13:37:55.328 200 POST /api/notes/root/children?target=into&targetBranchId= with 488 bytes took 2ms
+13:37:55.331 200 POST /api/tree/load with 684 bytes took 1ms
+13:37:55.344 200 GET /api/notes/1iecD0eiIJE0 with 433 bytes took 0ms
+13:37:55.345 200 GET /api/notes/1iecD0eiIJE0/backlink-count with 11 bytes took 1ms
+13:37:55.585 204 PUT /api/options with 0 bytes took 1ms
+13:37:56.721 200 PUT /api/notes/1iecD0eiIJE0/title with 288 bytes took 1ms
+13:37:56.724 200 GET /api/notes/1iecD0eiIJE0 with 426 bytes took 0ms
+13:37:57.723 200 PUT /api/notes/1iecD0eiIJE0/title with 292 bytes took 1ms
+13:37:58.727 200 PUT /api/notes/1iecD0eiIJE0/title with 294 bytes took 1ms
+13:37:58.730 200 GET /api/notes/1iecD0eiIJE0 with 432 bytes took 1ms
+13:37:59.728 200 PUT /api/notes/1iecD0eiIJE0/title with 298 bytes took 1ms
+13:38:01.376 200 PUT /api/notes/1iecD0eiIJE0/title with 299 bytes took 1ms
+13:38:01.379 200 GET /api/notes/1iecD0eiIJE0 with 437 bytes took 1ms
+13:38:04.800 200 GET /api/notes/zOdqRTXR4EGO with 3405 bytes took 0ms
+13:38:04.801 200 GET /api/notes/zOdqRTXR4EGO/backlink-count with 11 bytes took 0ms
+13:38:04.841 204 PUT /api/options with 0 bytes took 1ms
+13:38:11.705 204 PUT /api/branches/w0mgY9lKQLJ1/expanded/0 with 0 bytes took 0ms
+13:38:12.205 204 PUT /api/branches/s1i2ARPL4LHY/expanded/0 with 0 bytes took 1ms
+13:38:17.636 304 GET /api/setup/status with 59 bytes took 1ms
+13:38:17.639 200 POST /api/login/sync with 55 bytes took 1ms
+13:38:17.644 sync failed: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+13:39:08.527 200 GET /api/notes/root with 421 bytes took 0ms
+13:39:08.527 200 GET /api/notes/root/backlink-count with 11 bytes took 0ms
+13:39:08.547 204 PUT /api/options with 0 bytes took 1ms
+13:39:08.561 200 GET /api/notes/ytkAALq5c3pE with 433 bytes took 1ms
+13:39:08.572 200 GET /api/notes/EkbToIutKsQu with 440 bytes took 0ms
+13:39:08.581 200 GET /api/notes/1iecD0eiIJE0 with 437 bytes took 1ms
+13:39:17.641 304 GET /api/setup/status with 59 bytes took 0ms
+13:39:17.644 200 POST /api/login/sync with 55 bytes took 1ms
+13:39:17.649 sync failed: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+13:39:27.345 Created new note 'fFlLqQhr4P6e', branch 'zx3YSiuWIY13' of type 'text', mime 'text/html'
+13:39:27.346 200 POST /api/notes/root/children?target=into&targetBranchId= with 488 bytes took 2ms
+13:39:27.349 200 POST /api/tree/load with 798 bytes took 0ms
+13:39:27.374 200 GET /api/notes/fFlLqQhr4P6e with 433 bytes took 0ms
+13:39:27.375 200 GET /api/notes/fFlLqQhr4P6e/backlink-count with 11 bytes took 1ms
+13:39:27.391 204 PUT /api/options with 0 bytes took 1ms
+13:39:28.944 200 PUT /api/notes/fFlLqQhr4P6e/title with 288 bytes took 0ms
+13:39:28.948 200 GET /api/notes/fFlLqQhr4P6e with 426 bytes took 1ms
+13:39:29.949 200 PUT /api/notes/fFlLqQhr4P6e/title with 293 bytes took 1ms
+13:39:29.952 200 GET /api/notes/fFlLqQhr4P6e with 431 bytes took 0ms
+13:39:30.953 200 PUT /api/notes/fFlLqQhr4P6e/title with 297 bytes took 0ms
+13:39:33.080 200 PUT /api/notes/fFlLqQhr4P6e/title with 298 bytes took 1ms
+13:39:33.083 200 GET /api/notes/fFlLqQhr4P6e with 436 bytes took 0ms
+13:39:34.083 200 PUT /api/notes/fFlLqQhr4P6e/title with 302 bytes took 1ms
+13:39:35.086 200 PUT /api/notes/fFlLqQhr4P6e/title with 290 bytes took 1ms
+13:39:35.088 200 GET /api/notes/fFlLqQhr4P6e with 428 bytes took 0ms
+13:39:36.088 200 PUT /api/notes/fFlLqQhr4P6e/title with 287 bytes took 1ms
+13:39:39.233 200 PUT /api/notes/fFlLqQhr4P6e/title with 288 bytes took 1ms
+13:39:39.235 200 GET /api/notes/fFlLqQhr4P6e with 426 bytes took 0ms
+13:39:40.234 200 PUT /api/notes/fFlLqQhr4P6e/title with 293 bytes took 1ms
+13:39:41.236 200 PUT /api/notes/fFlLqQhr4P6e/title with 298 bytes took 1ms
+13:39:41.238 200 GET /api/notes/fFlLqQhr4P6e with 436 bytes took 0ms
+13:39:42.239 200 PUT /api/notes/fFlLqQhr4P6e/title with 302 bytes took 1ms
+13:40:00.021 200 GET /api/notes/1iecD0eiIJE0 with 437 bytes took 0ms
+13:40:00.021 200 GET /api/notes/1iecD0eiIJE0/backlink-count with 11 bytes took 0ms
+13:40:00.034 204 PUT /api/options with 0 bytes took 0ms
+13:40:02.088 200 PUT /api/notes/1iecD0eiIJE0/title with 294 bytes took 1ms
+13:40:02.091 200 GET /api/notes/1iecD0eiIJE0 with 432 bytes took 0ms
+13:40:02.468 200 PUT /api/notes/1iecD0eiIJE0/title with 293 bytes took 1ms
+13:40:06.739 200 GET /api/notes/ytkAALq5c3pE with 433 bytes took 0ms
+13:40:06.739 200 GET /api/notes/ytkAALq5c3pE/backlink-count with 11 bytes took 0ms
+13:40:06.754 204 PUT /api/options with 0 bytes took 1ms
+13:40:06.760 200 GET /api/notes/zOdqRTXR4EGO with 3405 bytes took 0ms
+13:40:10.180 204 PUT /api/branches/w0mgY9lKQLJ1/expanded/1 with 0 bytes took 0ms
+13:40:11.647 204 PUT /api/branches/s1i2ARPL4LHY/expanded/1 with 0 bytes took 0ms
+13:40:16.874 Marking branches sVLKONNa1K2F as deleted
+13:40:16.874 Moved note zOdqRTXR4EGO, branch sVLKONNa1K2F after note EkbToIutKsQu, branch w0mgY9lKQLJ1
+13:40:16.874 200 PUT /api/branches/sVLKONNa1K2F/move-after/w0mgY9lKQLJ1 with 16 bytes took 1ms
+13:40:17.649 304 GET /api/setup/status with 59 bytes took 0ms
+13:40:17.652 200 POST /api/login/sync with 55 bytes took 1ms
+13:40:17.657 sync failed: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+13:40:20.032 Marking branches E8xnckWMxePa as deleted
+13:40:20.033 200 PUT /api/branches/E8xnckWMxePa/move-to/w0mgY9lKQLJ1 with 221 bytes took 1ms
+13:40:24.319 200 POST /api/delete-notes-preview with 60 bytes took 0ms
+13:40:25.848 Sending message to all clients: {"type":"taskProgressCount","taskId":"gfB8JQToKW","taskType":"delete-notes","progressCount":0}
+13:40:25.849 Marking branches s1i2ARPL4LHY as deleted
+13:40:25.849 Deleting note ytkAALq5c3pE
+13:40:25.849 Marking notes ytkAALq5c3pE as deleted
+13:40:25.849 Sending message to all clients: {"type":"taskSucceeded","taskId":"gfB8JQToKW","taskType":"delete-notes"}
+13:40:25.849 200 DELETE /api/branches/s1i2ARPL4LHY?taskId=gfB8JQToKW&eraseNotes=false&last=true with 20 bytes took 1ms
+13:40:25.878 200 POST /api/tree/load with 42 bytes took 0ms
+13:40:25.880 200 GET /api/search/%23workspace with 2 bytes took 1ms
+13:40:25.884 204 PUT /api/options with 0 bytes took 1ms
+13:40:25.902 200 GET /api/notes/EkbToIutKsQu with 440 bytes took 1ms
+13:40:25.902 200 GET /api/notes/EkbToIutKsQu/backlink-count with 11 bytes took 0ms
+13:40:25.923 200 GET /api/notes/n6iRE2zsKdrw with 440 bytes took 0ms
+13:40:25.932 200 GET /api/notes/zOdqRTXR4EGO with 3405 bytes took 0ms
+13:40:26.888 204 PUT /api/options with 0 bytes took 0ms
+13:40:27.832 204 PUT /api/branches/w0mgY9lKQLJ1/expanded/0 with 0 bytes took 0ms
+13:40:29.153 200 GET /api/notes/root with 421 bytes took 0ms
+13:40:29.154 200 GET /api/notes/root/backlink-count with 11 bytes took 0ms
+13:40:29.163 204 PUT /api/options with 0 bytes took 1ms
+13:40:29.265 200 GET /api/notes/EkbToIutKsQu with 440 bytes took 0ms
+13:40:29.267 200 GET /api/notes/1iecD0eiIJE0 with 431 bytes took 0ms
+13:40:29.269 200 GET /api/notes/fFlLqQhr4P6e with 440 bytes took 0ms
+13:40:32.728 200 GET /api/notes/1iecD0eiIJE0 with 431 bytes took 1ms
+13:40:32.728 200 GET /api/notes/1iecD0eiIJE0/backlink-count with 11 bytes took 0ms
+13:40:32.742 204 PUT /api/options with 0 bytes took 1ms
+13:40:37.473 Moved note fFlLqQhr4P6e, branch zx3YSiuWIY13 before note EkbToIutKsQu, branch w0mgY9lKQLJ1
+13:40:37.474 200 PUT /api/branches/zx3YSiuWIY13/move-before/w0mgY9lKQLJ1 with 16 bytes took 1ms
+13:40:39.147 200 GET /api/notes/root with 421 bytes took 0ms
+13:40:39.147 200 GET /api/notes/root/backlink-count with 11 bytes took 0ms
+13:40:39.159 204 PUT /api/options with 0 bytes took 0ms
+13:40:39.161 200 GET /api/notes/fFlLqQhr4P6e with 440 bytes took 0ms
+13:40:39.163 200 GET /api/notes/EkbToIutKsQu with 440 bytes took 0ms
+13:40:39.165 200 GET /api/notes/1iecD0eiIJE0 with 431 bytes took 1ms
+13:40:41.486 200 GET /api/notes/1iecD0eiIJE0 with 431 bytes took 0ms
+13:40:41.487 200 GET /api/notes/1iecD0eiIJE0/backlink-count with 11 bytes took 0ms
+13:40:41.498 204 PUT /api/options with 0 bytes took 0ms
+13:40:46.752 Moved note fFlLqQhr4P6e, branch zx3YSiuWIY13 after note EkbToIutKsQu, branch w0mgY9lKQLJ1
+13:40:46.752 200 PUT /api/branches/zx3YSiuWIY13/move-after/w0mgY9lKQLJ1 with 16 bytes took 1ms
+13:40:50.434 Moved note EkbToIutKsQu, branch w0mgY9lKQLJ1 after note 1iecD0eiIJE0, branch eXXId0ZjLlxX
+13:40:50.434 200 PUT /api/branches/w0mgY9lKQLJ1/move-after/eXXId0ZjLlxX with 16 bytes took 2ms
+13:40:59.485 200 GET /api/notes/globalnotemap/backlink-count with 11 bytes took 0ms
+13:40:59.489 204 PUT /api/options with 0 bytes took 0ms
+13:40:59.545 200 POST /api/note-map/root/tree with 11963 bytes took 1ms
+13:41:17.649 304 GET /api/setup/status with 59 bytes took 0ms
+13:41:17.651 200 POST /api/login/sync with 55 bytes took 0ms
+13:41:17.657 sync failed: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+13:42:14.552 200 GET /api/notes/ZwloeVTBS41v with 432 bytes took 0ms
+13:42:14.552 200 GET /api/notes/ZwloeVTBS41v/backlink-count with 11 bytes took 0ms
+13:42:14.554 200 GET /api/tree?subTreeNoteId=n6iRE2zsKdrw with 8845 bytes took 0ms
+13:42:14.560 204 PUT /api/options with 0 bytes took 1ms
+13:42:14.863 204 PUT /api/branches/w0mgY9lKQLJ1/expanded/1 with 0 bytes took 0ms
+13:42:14.864 204 PUT /api/branches/NtgOnIyIjCHS/expanded/1 with 0 bytes took 0ms
+13:42:14.952 200 GET /api/notes/dhk3wWPt0eMC with 2917 bytes took 1ms
+13:42:14.953 200 GET /api/notes/uTByF78LVcNr with 8049 bytes took 0ms
+13:42:14.957 200 GET /api/notes/weN8GXi9rZKI with 1093 bytes took 0ms
+13:42:16.657 204 PUT /api/branches/w0mgY9lKQLJ1/expanded/0 with 0 bytes took 0ms
+13:42:17.371 200 GET /api/notes/root with 421 bytes took 1ms
+13:42:17.371 200 GET /api/notes/root/backlink-count with 11 bytes took 0ms
+13:42:17.380 204 PUT /api/options with 0 bytes took 1ms
+13:42:17.481 200 GET /api/notes/fFlLqQhr4P6e with 440 bytes took 0ms
+13:42:17.483 200 GET /api/notes/1iecD0eiIJE0 with 431 bytes took 0ms
+13:42:17.484 200 GET /api/notes/EkbToIutKsQu with 440 bytes took 0ms
+13:42:17.659 304 GET /api/setup/status with 59 bytes took 0ms
+13:42:17.662 200 POST /api/login/sync with 55 bytes took 1ms
+13:42:17.666 sync failed: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+13:42:19.467 200 GET /api/notes/globalnotemap/backlink-count with 11 bytes took 0ms
+13:42:19.476 204 PUT /api/options with 0 bytes took 0ms
+13:42:19.485 200 POST /api/note-map/root/tree with 11963 bytes took 1ms
+13:42:38.304 200 GET /api/notes/EkbToIutKsQu with 440 bytes took 0ms
+13:42:38.305 200 GET /api/notes/EkbToIutKsQu/backlink-count with 11 bytes took 0ms
+13:42:38.313 204 PUT /api/options with 0 bytes took 0ms
+13:42:38.599 200 GET /api/notes/n6iRE2zsKdrw with 440 bytes took 0ms
+13:42:38.603 200 GET /api/notes/zOdqRTXR4EGO with 3405 bytes took 0ms
+13:42:39.817 200 POST /api/note-map/EkbToIutKsQu/link with 7842 bytes took 1ms
+13:42:44.230 204 PUT /api/notes/EkbToIutKsQu/set-attribute with 0 bytes took 1ms
+13:42:44.253 200 POST /api/note-map/EkbToIutKsQu/tree with 11740 bytes took 0ms
+13:42:44.255 200 POST /api/note-map/root/tree with 11963 bytes took 1ms
+13:42:59.565 204 PUT /api/options with 0 bytes took 0ms
+13:43:00.570 204 PUT /api/options with 0 bytes took 1ms
+13:43:06.060 204 PUT /api/branches/w0mgY9lKQLJ1/expanded/1 with 0 bytes took 0ms
+13:43:06.745 204 PUT /api/branches/w0mgY9lKQLJ1/expanded/0 with 0 bytes took 1ms
+13:43:07.157 200 GET /api/search-templates with 2 bytes took 0ms
+13:43:07.158 200 GET /api/search-templates with 2 bytes took 0ms
+13:43:17.664 304 GET /api/setup/status with 59 bytes took 0ms
+13:43:17.666 200 POST /api/login/sync with 55 bytes took 0ms
+13:43:17.671 sync failed: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+13:43:29.262 204 PUT /api/branches/w0mgY9lKQLJ1/expanded/1 with 0 bytes took 1ms
+13:43:30.608 200 GET /api/notes/hFTRpBUVwuI4/backlink-count with 11 bytes took 0ms
+13:43:30.609 200 GET /api/notes/hFTRpBUVwuI4 with 440 bytes took 0ms
+13:43:30.615 204 PUT /api/options with 0 bytes took 0ms
+13:43:30.618 200 POST /api/note-map/hFTRpBUVwuI4/link with 2713 bytes took 0ms
+13:43:30.735 200 GET /api/notes/wxBd9oXuzZOD with 432 bytes took 0ms
+13:43:30.738 200 GET /api/notes/5N5zsLNo3cbc with 2126 bytes took 1ms
+13:43:30.741 200 GET /api/notes/uLqrdUpqhkX5 with 12566 bytes took 0ms
+13:43:30.745 200 GET /api/notes/kfovyJkPyMP0 with 7050 bytes took 0ms
+13:43:30.766 200 GET /api/notes/CbSlJ1Pk7zhN with 6089 bytes took 0ms
+13:43:30.780 200 GET /api/notes/XGINIJ6QwEHV with 2780 bytes took 1ms
+13:43:30.791 200 GET /api/notes/Y3pPpohIOn7b with 11824 bytes took 0ms
+13:43:30.799 200 GET /api/notes/wYvDO60EoSO2 with 5745 bytes took 0ms
+13:43:30.817 200 GET /api/notes/s6L2rc6es1kc with 6966 bytes took 0ms
+13:43:30.828 200 GET /api/notes/Efyexj30Mu6F with 3671 bytes took 1ms
+13:43:30.840 200 GET /api/notes/Yaow9A9viW2B with 2640 bytes took 0ms
+13:43:30.846 200 GET /api/notes/dCyuIf4bt826 with 7979 bytes took 0ms
+13:43:30.859 200 GET /api/notes/qWJEnZn3jHQG with 3908 bytes took 0ms
+13:43:30.865 200 GET /api/notes/GNUnWq0PgAyN with 7753 bytes took 1ms
+13:43:32.005 200 GET /api/notes/n6iRE2zsKdrw/backlink-count with 11 bytes took 0ms
+13:43:32.008 200 GET /api/notes/n6iRE2zsKdrw with 440 bytes took 0ms
+13:43:32.016 204 PUT /api/options with 0 bytes took 0ms
+13:43:32.121 200 GET /api/notes/hFTRpBUVwuI4 with 440 bytes took 0ms
+13:43:32.123 200 GET /api/notes/3SOIJAUwnVcp with 2624 bytes took 0ms
+13:43:32.126 200 GET /api/notes/emJo3gvb2ngn with 430 bytes took 0ms
+13:43:32.128 200 GET /api/notes/ZwloeVTBS41v with 432 bytes took 0ms
+13:43:32.134 200 GET /api/notes/ppXUUjl570zv with 432 bytes took 0ms
+13:43:32.136 200 GET /api/notes/ZW8u4z0tKxeE with 435 bytes took 1ms
+13:43:32.137 200 GET /api/notes/FAUZVxMsRoGZ with 430 bytes took 0ms
+13:43:32.139 200 GET /api/notes/9Xvec3iKSrNv with 440 bytes took 0ms
+13:43:37.599 200 GET /api/tree?subTreeNoteId=3SOIJAUwnVcp with 7653 bytes took 1ms
+13:43:37.812 204 PUT /api/branches/BHQVaPLaCV4G/expanded/1 with 0 bytes took 0ms
+13:43:39.564 204 PUT /api/branches/R6JtQPEYSJiQ/expanded/0 with 0 bytes took 1ms
+13:43:39.846 200 GET /api/tree?subTreeNoteId=YerbShyugA06 with 6440 bytes took 1ms
+13:43:40.063 204 PUT /api/branches/swPNHLBbT0Dk/expanded/1 with 0 bytes took 1ms
+13:43:40.613 204 PUT /api/branches/swPNHLBbT0Dk/expanded/0 with 0 bytes took 1ms
+13:43:42.117 200 GET /api/tree?subTreeNoteId=emJo3gvb2ngn with 3991 bytes took 0ms
+13:43:42.330 204 PUT /api/branches/BqvQb3Odrpty/expanded/1 with 0 bytes took 0ms
+13:43:42.963 204 PUT /api/branches/BqvQb3Odrpty/expanded/0 with 0 bytes took 0ms
+13:43:43.533 200 GET /api/tree?subTreeNoteId=ZwloeVTBS41v with 3912 bytes took 0ms
+13:43:43.746 204 PUT /api/branches/7eyL8LWfw2NB/expanded/1 with 0 bytes took 0ms
+13:43:44.429 204 PUT /api/branches/7eyL8LWfw2NB/expanded/0 with 0 bytes took 0ms
+13:43:44.885 200 GET /api/tree?subTreeNoteId=ppXUUjl570zv with 3476 bytes took 0ms
+13:43:45.096 204 PUT /api/branches/7OEJp04npc7Z/expanded/1 with 0 bytes took 0ms
+13:43:45.663 204 PUT /api/branches/7OEJp04npc7Z/expanded/0 with 0 bytes took 0ms
+13:43:46.157 200 GET /api/tree?subTreeNoteId=ZW8u4z0tKxeE with 3366 bytes took 0ms
+13:43:46.363 204 PUT /api/branches/7N1iJjp8upRq/expanded/1 with 0 bytes took 1ms
+13:43:46.913 204 PUT /api/branches/7N1iJjp8upRq/expanded/0 with 0 bytes took 1ms
+13:43:48.149 200 GET /api/tree?subTreeNoteId=FAUZVxMsRoGZ with 3574 bytes took 0ms
+13:43:48.363 204 PUT /api/branches/b6wVHtHShfJl/expanded/1 with 0 bytes took 0ms
+13:43:49.875 200 GET /api/notes/D6muhBB2Vhky with 3748 bytes took 0ms
+13:43:49.875 200 GET /api/notes/D6muhBB2Vhky/backlink-count with 11 bytes took 0ms
+13:43:49.906 204 PUT /api/options with 0 bytes took 0ms
+13:43:51.873 200 GET /api/notes/VYUXKDQwkgk1 with 2462 bytes took 0ms
+13:43:51.873 200 GET /api/notes/VYUXKDQwkgk1/backlink-count with 11 bytes took 0ms
+13:43:51.914 204 PUT /api/options with 0 bytes took 1ms
+13:44:02.948 204 PUT /api/branches/b6wVHtHShfJl/expanded/0 with 0 bytes took 1ms
+13:44:03.755 200 GET /api/notes/9Xvec3iKSrNv with 440 bytes took 0ms
+13:44:03.755 200 GET /api/notes/9Xvec3iKSrNv/backlink-count with 11 bytes took 0ms
+13:44:03.782 204 PUT /api/options with 0 bytes took 1ms
+13:44:03.788 200 GET /api/notes/rsm95qt5nzim with 2170 bytes took 0ms
+13:44:17.666 304 GET /api/setup/status with 59 bytes took 0ms
+13:44:17.668 200 POST /api/login/sync with 55 bytes took 0ms
+13:44:17.674 sync failed: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+13:44:38.587 200 GET /api/notes/zOdqRTXR4EGO with 3405 bytes took 0ms
+13:44:38.587 200 GET /api/notes/zOdqRTXR4EGO/backlink-count with 11 bytes took 0ms
+13:44:38.626 204 PUT /api/options with 0 bytes took 1ms
+13:44:45.667 204 PUT /api/branches/w0mgY9lKQLJ1/expanded/0 with 0 bytes took 0ms
+13:44:46.173 200 GET /api/notes/1iecD0eiIJE0 with 431 bytes took 1ms
+13:44:46.174 200 GET /api/notes/1iecD0eiIJE0/backlink-count with 11 bytes took 0ms
+13:44:46.192 204 PUT /api/options with 0 bytes took 0ms
+13:44:47.068 200 GET /api/notes/EkbToIutKsQu with 440 bytes took 0ms
+13:44:47.069 200 GET /api/notes/EkbToIutKsQu/backlink-count with 11 bytes took 0ms
+13:44:47.083 200 GET /api/notes/n6iRE2zsKdrw with 440 bytes took 0ms
+13:44:47.103 200 GET /api/notes/zOdqRTXR4EGO with 3405 bytes took 0ms
+13:44:47.194 204 PUT /api/options with 0 bytes took 1ms
+13:44:47.981 200 GET /api/notes/globalnotemap/backlink-count with 11 bytes took 0ms
+13:44:47.991 200 POST /api/note-map/root/tree with 11963 bytes took 1ms
+13:44:48.197 204 PUT /api/options with 0 bytes took 0ms
+13:44:58.770 200 GET /api/notes/globalnotemap/backlink-count with 11 bytes took 1ms
+13:44:58.775 204 PUT /api/options with 0 bytes took 0ms
+13:44:58.782 200 POST /api/note-map/root/tree with 11963 bytes took 0ms
+13:45:06.609 200 GET /api/notes/EkbToIutKsQu with 440 bytes took 1ms
+13:45:06.609 200 GET /api/notes/EkbToIutKsQu/backlink-count with 11 bytes took 0ms
+13:45:06.618 204 PUT /api/options with 0 bytes took 1ms
+13:45:07.017 200 GET /api/notes/n6iRE2zsKdrw with 440 bytes took 0ms
+13:45:07.019 200 GET /api/notes/zOdqRTXR4EGO with 3405 bytes took 0ms
+13:45:08.330 200 POST /api/note-map/EkbToIutKsQu/tree with 11740 bytes took 1ms
+13:45:17.675 304 GET /api/setup/status with 59 bytes took 1ms
+13:45:17.677 200 POST /api/login/sync with 55 bytes took 0ms
+13:45:17.682 sync failed: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+13:45:18.029 204 PUT /api/notes/EkbToIutKsQu/set-attribute with 0 bytes took 0ms
+13:45:18.062 200 POST /api/note-map/root/link with 7940 bytes took 0ms
+13:45:18.075 200 POST /api/note-map/EkbToIutKsQu/link with 7842 bytes took 1ms
+13:45:18.079 200 POST /api/note-map/root/link with 7940 bytes took 0ms
+13:46:17.678 304 GET /api/setup/status with 59 bytes took 1ms
+13:46:17.680 200 POST /api/login/sync with 55 bytes took 1ms
+13:46:17.685 sync failed: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID I2F8iNG71QUz which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
