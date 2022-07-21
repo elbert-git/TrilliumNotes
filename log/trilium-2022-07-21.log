@@ -1,0 +1,1457 @@
+09:03:48.731 DB size: 3538 KB
+09:03:49.517 Becca (note cache) load took 5ms
+09:03:49.668 App HTTP server starting up at port 37840
+09:03:49.668 {
+  "appVersion": "0.53.2",
+  "dbVersion": 196,
+  "syncVersion": 25,
+  "buildDate": "2022-07-09T13:40:41+02:00",
+  "buildRevision": "9b4ef6ea5eb3711c5ebd9d99fffdc771b84dacc1",
+  "dataDirectory": "C:\\Users\\Admin\\AppData\\Roaming\\trilium-data",
+  "clipperProtocolVersion": "1.0",
+  "utcDateTime": "2022-07-21T01:03:48.730Z"
+}
+09:03:49.668 CPU model: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz, logical cores: 12 freq: 2904 Mhz
+09:03:49.683 Registered global shortcut Ctrl+Alt+P for action createNoteIntoInbox
+09:03:49.684 Listening on port 37840
+09:03:51.953 Generated CSRF token KmwrkiG4-Kys3Ow8u1adBSiHdABgPbPyJ-98 with secret _csrf=JzZbSpfdJP1afCbWYo_Qf8G6; Path=/
+09:03:52.439 200 GET /api/options with 5855 bytes took 0ms
+09:03:52.440 200 GET /api/tree with 2280 bytes took 0ms
+09:03:52.443 200 GET /api/keyboard-actions with 11944 bytes took 1ms
+09:03:52.443 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+09:03:52.444 200 GET /api/script/widgets with 2 bytes took 1ms
+09:03:52.520 200 POST /api/tree/load with 2105 bytes took 1ms
+09:03:52.521 200 GET /api/search/%23bookmarked%20or%20%23bookmarkFolder with 2 bytes took 0ms
+09:03:52.522 200 POST /api/tree/load with 2105 bytes took 1ms
+09:03:52.931 200 GET /api/notes/EkbToIutKsQu with 440 bytes took 1ms
+09:03:52.931 200 GET /api/notes/EkbToIutKsQu/backlink-count with 11 bytes took 0ms
+09:03:53.318 200 POST /api/tree/load with 2940 bytes took 1ms
+09:03:53.321 200 GET /api/notes/n6iRE2zsKdrw with 440 bytes took 0ms
+09:03:53.322 200 POST /api/tree/load with 9023 bytes took 0ms
+09:03:53.326 200 GET /api/notes/zOdqRTXR4EGO with 3405 bytes took 1ms
+09:03:53.525 Table counts: notes: 156, note_revisions: 87, branches: 187, attributes: 99, etapi_tokens: 0
+09:03:53.548 All consistency checks passed with no errors detected (took 24ms)
+09:03:54.486 200 GET /api/script/startup with 2 bytes took 0ms
+09:03:54.538 304 GET /api/setup/status with 59 bytes took 1ms
+09:03:54.550 200 POST /api/login/sync with 55 bytes took 2ms
+09:03:54.559 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:04:02.555 Slow 200 GET /api/quick-search/ls with 511 bytes took 12ms
+09:04:02.557 200 POST /api/tree/load with 11643 bytes took 1ms
+09:04:20.835 200 GET /api/quick-search/vite with 31 bytes took 7ms
+09:04:20.836 200 POST /api/tree/load with 5304 bytes took 0ms
+09:04:22.063 200 GET /api/notes/5N5zsLNo3cbc with 2126 bytes took 0ms
+09:04:22.064 200 GET /api/notes/5N5zsLNo3cbc/backlink-count with 11 bytes took 0ms
+09:04:22.065 200 GET /api/tree?subTreeNoteId=EkbToIutKsQu with 12490 bytes took 0ms
+09:04:22.147 204 PUT /api/options with 0 bytes took 2ms
+09:04:22.173 200 GET /api/tree?subTreeNoteId=hFTRpBUVwuI4 with 6752 bytes took 0ms
+09:04:22.185 204 PUT /api/branches/w0mgY9lKQLJ1/expanded/1 with 0 bytes took 0ms
+09:04:22.203 204 PUT /api/branches/s0Z5Fa2NSnKs/expanded/1 with 0 bytes took 0ms
+09:04:49.533 304 GET /api/setup/status with 59 bytes took 1ms
+09:04:49.536 200 POST /api/login/sync with 55 bytes took 0ms
+09:04:49.544 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:05:49.545 304 GET /api/setup/status with 59 bytes took 0ms
+09:05:49.548 200 POST /api/login/sync with 55 bytes took 1ms
+09:05:49.555 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:06:49.558 304 GET /api/setup/status with 59 bytes took 1ms
+09:06:49.561 200 POST /api/login/sync with 55 bytes took 1ms
+09:06:49.567 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:07:49.560 304 GET /api/setup/status with 59 bytes took 0ms
+09:07:49.563 200 POST /api/login/sync with 55 bytes took 1ms
+09:07:49.569 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:08:49.564 304 GET /api/setup/status with 59 bytes took 1ms
+09:08:49.566 200 POST /api/login/sync with 55 bytes took 0ms
+09:08:49.572 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:09:49.573 304 GET /api/setup/status with 59 bytes took 1ms
+09:09:49.575 200 POST /api/login/sync with 55 bytes took 0ms
+09:09:49.581 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:10:49.577 304 GET /api/setup/status with 59 bytes took 1ms
+09:10:49.580 200 POST /api/login/sync with 55 bytes took 1ms
+09:10:49.586 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:11:49.590 304 GET /api/setup/status with 59 bytes took 0ms
+09:11:49.593 200 POST /api/login/sync with 55 bytes took 0ms
+09:11:49.601 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:12:49.600 304 GET /api/setup/status with 59 bytes took 0ms
+09:12:49.603 200 POST /api/login/sync with 55 bytes took 1ms
+09:12:49.609 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:13:49.610 304 GET /api/setup/status with 59 bytes took 1ms
+09:13:49.612 200 POST /api/login/sync with 55 bytes took 0ms
+09:13:49.619 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:14:22.263 204 PUT /api/branches/BHQVaPLaCV4G/expanded/0 with 0 bytes took 0ms
+09:14:49.624 304 GET /api/setup/status with 59 bytes took 1ms
+09:14:49.627 200 POST /api/login/sync with 55 bytes took 0ms
+09:14:49.633 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:15:49.634 304 GET /api/setup/status with 59 bytes took 1ms
+09:15:49.636 200 POST /api/login/sync with 55 bytes took 0ms
+09:15:49.643 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:16:49.646 304 GET /api/setup/status with 59 bytes took 1ms
+09:16:49.648 200 POST /api/login/sync with 55 bytes took 0ms
+09:16:49.654 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:17:49.651 304 GET /api/setup/status with 59 bytes took 0ms
+09:17:49.654 200 POST /api/login/sync with 55 bytes took 1ms
+09:17:49.660 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:18:49.666 304 GET /api/setup/status with 59 bytes took 1ms
+09:18:49.668 200 POST /api/login/sync with 55 bytes took 1ms
+09:18:49.673 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:19:49.675 304 GET /api/setup/status with 59 bytes took 0ms
+09:19:49.679 200 POST /api/login/sync with 55 bytes took 0ms
+09:19:49.686 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:20:49.683 304 GET /api/setup/status with 59 bytes took 1ms
+09:20:49.685 200 POST /api/login/sync with 55 bytes took 1ms
+09:20:49.690 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:21:49.685 304 GET /api/setup/status with 59 bytes took 0ms
+09:21:49.687 200 POST /api/login/sync with 55 bytes took 0ms
+09:21:49.693 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:22:49.691 304 GET /api/setup/status with 59 bytes took 1ms
+09:22:49.693 200 POST /api/login/sync with 55 bytes took 0ms
+09:22:49.699 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:23:49.696 304 GET /api/setup/status with 59 bytes took 0ms
+09:23:49.699 200 POST /api/login/sync with 55 bytes took 1ms
+09:23:49.705 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:24:49.708 304 GET /api/setup/status with 59 bytes took 0ms
+09:24:49.711 200 POST /api/login/sync with 55 bytes took 1ms
+09:24:49.717 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:25:49.720 304 GET /api/setup/status with 59 bytes took 1ms
+09:25:49.722 200 POST /api/login/sync with 55 bytes took 0ms
+09:25:49.728 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:26:49.726 304 GET /api/setup/status with 59 bytes took 0ms
+09:26:49.728 200 POST /api/login/sync with 55 bytes took 0ms
+09:26:49.734 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:27:49.731 304 GET /api/setup/status with 59 bytes took 1ms
+09:27:49.733 200 POST /api/login/sync with 55 bytes took 0ms
+09:27:49.741 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:28:49.745 304 GET /api/setup/status with 59 bytes took 0ms
+09:28:49.748 200 POST /api/login/sync with 55 bytes took 1ms
+09:28:49.754 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:29:49.755 304 GET /api/setup/status with 59 bytes took 0ms
+09:29:49.758 200 POST /api/login/sync with 55 bytes took 0ms
+09:29:49.764 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:30:49.765 304 GET /api/setup/status with 59 bytes took 0ms
+09:30:49.768 200 POST /api/login/sync with 55 bytes took 1ms
+09:30:49.774 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:31:49.770 304 GET /api/setup/status with 59 bytes took 1ms
+09:31:49.772 200 POST /api/login/sync with 55 bytes took 0ms
+09:31:49.779 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:32:49.781 304 GET /api/setup/status with 59 bytes took 0ms
+09:32:49.783 200 POST /api/login/sync with 55 bytes took 0ms
+09:32:49.789 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:33:49.794 304 GET /api/setup/status with 59 bytes took 1ms
+09:33:49.796 200 POST /api/login/sync with 55 bytes took 0ms
+09:33:49.803 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:34:49.794 304 GET /api/setup/status with 59 bytes took 1ms
+09:34:49.797 200 POST /api/login/sync with 55 bytes took 1ms
+09:34:49.803 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:35:49.798 304 GET /api/setup/status with 59 bytes took 0ms
+09:35:49.800 200 POST /api/login/sync with 55 bytes took 0ms
+09:35:49.806 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:36:49.800 304 GET /api/setup/status with 59 bytes took 1ms
+09:36:49.802 200 POST /api/login/sync with 55 bytes took 0ms
+09:36:49.809 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:37:49.810 304 GET /api/setup/status with 59 bytes took 1ms
+09:37:49.812 200 POST /api/login/sync with 55 bytes took 0ms
+09:37:49.818 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:38:49.810 304 GET /api/setup/status with 59 bytes took 0ms
+09:38:49.812 200 POST /api/login/sync with 55 bytes took 0ms
+09:38:49.819 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:39:49.816 304 GET /api/setup/status with 59 bytes took 1ms
+09:39:49.818 200 POST /api/login/sync with 55 bytes took 0ms
+09:39:49.824 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:40:49.828 304 GET /api/setup/status with 59 bytes took 0ms
+09:40:49.830 200 POST /api/login/sync with 55 bytes took 0ms
+09:40:49.837 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:41:49.841 304 GET /api/setup/status with 59 bytes took 1ms
+09:41:49.844 200 POST /api/login/sync with 55 bytes took 1ms
+09:41:49.848 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:42:49.846 304 GET /api/setup/status with 59 bytes took 1ms
+09:42:49.848 200 POST /api/login/sync with 55 bytes took 0ms
+09:42:49.854 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:43:49.856 304 GET /api/setup/status with 59 bytes took 0ms
+09:43:49.858 200 POST /api/login/sync with 55 bytes took 0ms
+09:43:49.864 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:44:49.870 304 GET /api/setup/status with 59 bytes took 0ms
+09:44:49.872 200 POST /api/login/sync with 55 bytes took 0ms
+09:44:49.877 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:45:49.885 304 GET /api/setup/status with 59 bytes took 1ms
+09:45:49.887 200 POST /api/login/sync with 55 bytes took 0ms
+09:45:49.894 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:46:49.895 304 GET /api/setup/status with 59 bytes took 0ms
+09:46:49.897 200 POST /api/login/sync with 55 bytes took 0ms
+09:46:49.904 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:47:49.899 304 GET /api/setup/status with 59 bytes took 1ms
+09:47:49.901 200 POST /api/login/sync with 55 bytes took 1ms
+09:47:49.907 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:48:49.913 304 GET /api/setup/status with 59 bytes took 0ms
+09:48:49.916 200 POST /api/login/sync with 55 bytes took 1ms
+09:48:49.922 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+09:49:49.931 304 GET /api/setup/status with 59 bytes took 0ms
+09:49:49.934 200 POST /api/login/sync with 55 bytes took 0ms
+09:49:49.939 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+10:53:35.459 304 GET /api/setup/status with 59 bytes took 0ms
+10:53:35.462 200 POST /api/login/sync with 55 bytes took 0ms
+10:53:35.469 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+10:54:35.459 304 GET /api/setup/status with 59 bytes took 0ms
+10:54:35.462 200 POST /api/login/sync with 55 bytes took 1ms
+10:54:35.468 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+10:55:35.471 304 GET /api/setup/status with 59 bytes took 0ms
+10:55:35.475 200 POST /api/login/sync with 55 bytes took 1ms
+10:55:35.481 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+10:56:35.487 304 GET /api/setup/status with 59 bytes took 1ms
+10:56:35.489 200 POST /api/login/sync with 55 bytes took 0ms
+10:56:35.495 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+10:57:35.489 304 GET /api/setup/status with 59 bytes took 1ms
+10:57:35.492 200 POST /api/login/sync with 55 bytes took 1ms
+10:57:35.497 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+10:58:35.504 304 GET /api/setup/status with 59 bytes took 0ms
+10:58:35.506 200 POST /api/login/sync with 55 bytes took 0ms
+10:58:35.512 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+10:59:35.516 304 GET /api/setup/status with 59 bytes took 1ms
+10:59:35.518 200 POST /api/login/sync with 55 bytes took 0ms
+10:59:35.524 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:00:35.531 304 GET /api/setup/status with 59 bytes took 0ms
+11:00:35.533 200 POST /api/login/sync with 55 bytes took 0ms
+11:00:35.539 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:01:35.537 304 GET /api/setup/status with 59 bytes took 1ms
+11:01:35.539 200 POST /api/login/sync with 55 bytes took 0ms
+11:01:35.546 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:02:35.545 304 GET /api/setup/status with 59 bytes took 1ms
+11:02:35.547 200 POST /api/login/sync with 55 bytes took 1ms
+11:02:35.553 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:03:35.551 304 GET /api/setup/status with 59 bytes took 1ms
+11:03:35.553 200 POST /api/login/sync with 55 bytes took 0ms
+11:03:35.560 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:04:35.554 304 GET /api/setup/status with 59 bytes took 0ms
+11:04:35.557 200 POST /api/login/sync with 55 bytes took 1ms
+11:04:35.564 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:05:35.559 304 GET /api/setup/status with 59 bytes took 2ms
+11:05:35.562 200 POST /api/login/sync with 55 bytes took 1ms
+11:05:35.568 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:06:35.035 Optimizing database
+11:06:35.035 Optimization finished in 0ms.
+11:06:35.035 Table counts: notes: 156, note_revisions: 87, branches: 187, attributes: 99, etapi_tokens: 0
+11:06:35.040 All consistency checks passed with no errors detected (took 5ms)
+11:06:35.561 304 GET /api/setup/status with 59 bytes took 0ms
+11:06:35.563 200 POST /api/login/sync with 55 bytes took 0ms
+11:06:35.569 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:07:35.578 304 GET /api/setup/status with 59 bytes took 1ms
+11:07:35.580 200 POST /api/login/sync with 55 bytes took 0ms
+11:07:35.586 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:08:35.597 304 GET /api/setup/status with 59 bytes took 1ms
+11:08:35.599 200 POST /api/login/sync with 55 bytes took 1ms
+11:08:35.605 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:09:35.603 304 GET /api/setup/status with 59 bytes took 1ms
+11:09:35.605 200 POST /api/login/sync with 55 bytes took 1ms
+11:09:35.610 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:10:35.605 304 GET /api/setup/status with 59 bytes took 0ms
+11:10:35.607 200 POST /api/login/sync with 55 bytes took 0ms
+11:10:35.614 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:11:35.608 304 GET /api/setup/status with 59 bytes took 0ms
+11:11:35.611 200 POST /api/login/sync with 55 bytes took 1ms
+11:11:35.616 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:12:35.613 304 GET /api/setup/status with 59 bytes took 0ms
+11:12:35.615 200 POST /api/login/sync with 55 bytes took 0ms
+11:12:35.620 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:13:35.623 304 GET /api/setup/status with 59 bytes took 1ms
+11:13:35.625 200 POST /api/login/sync with 55 bytes took 1ms
+11:13:35.630 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:14:35.638 304 GET /api/setup/status with 59 bytes took 1ms
+11:14:35.640 200 POST /api/login/sync with 55 bytes took 0ms
+11:14:35.648 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:15:35.649 304 GET /api/setup/status with 59 bytes took 1ms
+11:15:35.651 200 POST /api/login/sync with 55 bytes took 1ms
+11:15:35.656 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:16:35.660 304 GET /api/setup/status with 59 bytes took 0ms
+11:16:35.662 200 POST /api/login/sync with 55 bytes took 0ms
+11:16:35.668 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:17:35.672 304 GET /api/setup/status with 59 bytes took 0ms
+11:17:35.674 200 POST /api/login/sync with 55 bytes took 0ms
+11:17:35.680 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:18:35.679 304 GET /api/setup/status with 59 bytes took 0ms
+11:18:35.683 200 POST /api/login/sync with 55 bytes took 2ms
+11:18:35.689 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:19:35.690 304 GET /api/setup/status with 59 bytes took 1ms
+11:19:35.692 200 POST /api/login/sync with 55 bytes took 0ms
+11:19:35.698 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:20:35.694 304 GET /api/setup/status with 59 bytes took 1ms
+11:20:35.696 200 POST /api/login/sync with 55 bytes took 0ms
+11:20:35.702 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:21:35.706 304 GET /api/setup/status with 59 bytes took 0ms
+11:21:35.709 200 POST /api/login/sync with 55 bytes took 1ms
+11:21:35.715 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:22:35.720 304 GET /api/setup/status with 59 bytes took 0ms
+11:22:35.724 200 POST /api/login/sync with 55 bytes took 2ms
+11:22:35.730 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:23:35.734 304 GET /api/setup/status with 59 bytes took 0ms
+11:23:35.737 200 POST /api/login/sync with 55 bytes took 1ms
+11:23:35.743 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:24:35.749 304 GET /api/setup/status with 59 bytes took 0ms
+11:24:35.751 200 POST /api/login/sync with 55 bytes took 0ms
+11:24:35.758 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:25:35.752 304 GET /api/setup/status with 59 bytes took 1ms
+11:25:35.754 200 POST /api/login/sync with 55 bytes took 1ms
+11:25:35.758 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:26:35.757 304 GET /api/setup/status with 59 bytes took 1ms
+11:26:35.759 200 POST /api/login/sync with 55 bytes took 1ms
+11:26:35.765 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:27:35.760 304 GET /api/setup/status with 59 bytes took 1ms
+11:27:35.762 200 POST /api/login/sync with 55 bytes took 0ms
+11:27:35.769 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:28:35.766 304 GET /api/setup/status with 59 bytes took 0ms
+11:28:35.768 200 POST /api/login/sync with 55 bytes took 0ms
+11:28:35.773 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:29:35.767 304 GET /api/setup/status with 59 bytes took 1ms
+11:29:35.769 200 POST /api/login/sync with 55 bytes took 0ms
+11:29:35.776 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:30:35.780 304 GET /api/setup/status with 59 bytes took 0ms
+11:30:35.783 200 POST /api/login/sync with 55 bytes took 0ms
+11:30:35.790 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:31:35.792 304 GET /api/setup/status with 59 bytes took 0ms
+11:31:35.795 200 POST /api/login/sync with 55 bytes took 1ms
+11:31:35.801 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:32:35.803 304 GET /api/setup/status with 59 bytes took 0ms
+11:32:35.805 200 POST /api/login/sync with 55 bytes took 1ms
+11:32:35.810 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:33:35.814 304 GET /api/setup/status with 59 bytes took 1ms
+11:33:35.817 200 POST /api/login/sync with 55 bytes took 1ms
+11:33:35.823 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:34:35.826 304 GET /api/setup/status with 59 bytes took 0ms
+11:34:35.829 200 POST /api/login/sync with 55 bytes took 0ms
+11:34:35.836 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:35:35.826 304 GET /api/setup/status with 59 bytes took 0ms
+11:35:35.828 200 POST /api/login/sync with 55 bytes took 0ms
+11:35:35.835 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:36:35.832 304 GET /api/setup/status with 59 bytes took 1ms
+11:36:35.834 200 POST /api/login/sync with 55 bytes took 0ms
+11:36:35.841 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:37:35.833 304 GET /api/setup/status with 59 bytes took 1ms
+11:37:35.835 200 POST /api/login/sync with 55 bytes took 0ms
+11:37:35.841 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:38:35.835 304 GET /api/setup/status with 59 bytes took 0ms
+11:38:35.839 200 POST /api/login/sync with 55 bytes took 1ms
+11:38:35.845 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:39:35.835 304 GET /api/setup/status with 59 bytes took 0ms
+11:39:35.837 200 POST /api/login/sync with 55 bytes took 0ms
+11:39:35.843 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:40:35.836 304 GET /api/setup/status with 59 bytes took 1ms
+11:40:35.838 200 POST /api/login/sync with 55 bytes took 1ms
+11:40:35.844 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:41:35.850 304 GET /api/setup/status with 59 bytes took 0ms
+11:41:35.853 200 POST /api/login/sync with 55 bytes took 0ms
+11:41:35.860 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:42:35.858 304 GET /api/setup/status with 59 bytes took 1ms
+11:42:35.860 200 POST /api/login/sync with 55 bytes took 0ms
+11:42:35.866 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:43:35.863 304 GET /api/setup/status with 59 bytes took 0ms
+11:43:35.865 200 POST /api/login/sync with 55 bytes took 0ms
+11:43:35.871 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:44:35.869 304 GET /api/setup/status with 59 bytes took 0ms
+11:44:35.871 200 POST /api/login/sync with 55 bytes took 0ms
+11:44:35.878 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:45:35.870 304 GET /api/setup/status with 59 bytes took 0ms
+11:45:35.872 200 POST /api/login/sync with 55 bytes took 0ms
+11:45:35.878 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:46:35.876 304 GET /api/setup/status with 59 bytes took 0ms
+11:46:35.879 200 POST /api/login/sync with 55 bytes took 0ms
+11:46:35.886 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:47:35.892 304 GET /api/setup/status with 59 bytes took 1ms
+11:47:35.894 200 POST /api/login/sync with 55 bytes took 1ms
+11:47:35.899 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:48:35.893 304 GET /api/setup/status with 59 bytes took 0ms
+11:48:35.895 200 POST /api/login/sync with 55 bytes took 0ms
+11:48:35.902 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:49:35.897 304 GET /api/setup/status with 59 bytes took 1ms
+11:49:35.899 200 POST /api/login/sync with 55 bytes took 0ms
+11:49:35.906 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:50:35.909 304 GET /api/setup/status with 59 bytes took 1ms
+11:50:35.911 200 POST /api/login/sync with 55 bytes took 0ms
+11:50:35.918 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:51:35.919 304 GET /api/setup/status with 59 bytes took 0ms
+11:51:35.922 200 POST /api/login/sync with 55 bytes took 1ms
+11:51:35.928 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:52:35.926 304 GET /api/setup/status with 59 bytes took 0ms
+11:52:35.928 200 POST /api/login/sync with 55 bytes took 0ms
+11:52:35.935 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:53:35.939 304 GET /api/setup/status with 59 bytes took 1ms
+11:53:35.941 200 POST /api/login/sync with 55 bytes took 0ms
+11:53:35.949 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:54:35.945 304 GET /api/setup/status with 59 bytes took 1ms
+11:54:35.947 200 POST /api/login/sync with 55 bytes took 0ms
+11:54:35.954 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:55:35.956 304 GET /api/setup/status with 59 bytes took 0ms
+11:55:35.959 200 POST /api/login/sync with 55 bytes took 1ms
+11:55:35.965 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:56:35.958 304 GET /api/setup/status with 59 bytes took 1ms
+11:56:35.960 200 POST /api/login/sync with 55 bytes took 0ms
+11:56:35.967 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:57:35.974 304 GET /api/setup/status with 59 bytes took 0ms
+11:57:35.977 200 POST /api/login/sync with 55 bytes took 1ms
+11:57:35.989 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:58:35.975 304 GET /api/setup/status with 59 bytes took 0ms
+11:58:35.977 200 POST /api/login/sync with 55 bytes took 0ms
+11:58:35.983 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+11:59:35.984 304 GET /api/setup/status with 59 bytes took 0ms
+11:59:35.987 200 POST /api/login/sync with 55 bytes took 1ms
+11:59:35.993 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+12:00:35.995 304 GET /api/setup/status with 59 bytes took 0ms
+12:00:35.997 200 POST /api/login/sync with 55 bytes took 0ms
+12:00:36.004 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+12:01:36.001 304 GET /api/setup/status with 59 bytes took 0ms
+12:01:36.003 200 POST /api/login/sync with 55 bytes took 0ms
+12:01:36.009 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+12:02:36.009 304 GET /api/setup/status with 59 bytes took 0ms
+12:02:36.011 200 POST /api/login/sync with 55 bytes took 0ms
+12:02:36.019 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+12:03:36.011 304 GET /api/setup/status with 59 bytes took 1ms
+12:03:36.013 200 POST /api/login/sync with 55 bytes took 1ms
+12:03:36.019 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+12:04:36.012 304 GET /api/setup/status with 59 bytes took 0ms
+12:04:36.015 200 POST /api/login/sync with 55 bytes took 0ms
+12:04:36.021 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+12:05:36.015 304 GET /api/setup/status with 59 bytes took 1ms
+12:05:36.017 200 POST /api/login/sync with 55 bytes took 0ms
+12:05:36.023 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+12:06:35.040 Table counts: notes: 156, note_revisions: 87, branches: 187, attributes: 99, etapi_tokens: 0
+12:06:35.043 All consistency checks passed with no errors detected (took 3ms)
+12:06:36.015 304 GET /api/setup/status with 59 bytes took 1ms
+12:06:36.017 200 POST /api/login/sync with 55 bytes took 0ms
+12:06:36.024 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+12:07:36.029 304 GET /api/setup/status with 59 bytes took 0ms
+12:07:36.031 200 POST /api/login/sync with 55 bytes took 0ms
+12:07:36.038 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+12:08:36.038 304 GET /api/setup/status with 59 bytes took 1ms
+12:08:36.041 200 POST /api/login/sync with 55 bytes took 1ms
+12:08:36.045 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+12:09:36.048 304 GET /api/setup/status with 59 bytes took 0ms
+12:09:36.050 200 POST /api/login/sync with 55 bytes took 0ms
+12:09:36.055 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+12:10:36.060 304 GET /api/setup/status with 59 bytes took 1ms
+12:10:36.062 200 POST /api/login/sync with 55 bytes took 0ms
+12:10:36.066 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+12:11:36.062 304 GET /api/setup/status with 59 bytes took 0ms
+12:11:36.064 200 POST /api/login/sync with 55 bytes took 0ms
+12:11:36.070 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+12:12:36.066 304 GET /api/setup/status with 59 bytes took 0ms
+12:12:36.068 200 POST /api/login/sync with 55 bytes took 0ms
+12:12:36.074 sync failed: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+stack: Error: Sync server has member ID gVEH9gNhY3Wp which is also local. This usually happens when the sync client is (mis)configured to sync with itself (URL points back to client) instead of the correct sync server.
+    at doLogin (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:111:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async login (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:94:12)
+    at async C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:35:37
+    at async Object.doExclusively (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync_mutex.js:13:16)
+    at async sync (C:\Users\Admin\Downloads\trilium-windows-x64-0.53.2\trilium-windows-x64\resources\app.asar\src\services\sync.js:27:16)
+12:13:10.404 DB size: 3538 KB
+12:13:11.237 Becca (note cache) load took 3ms
+12:13:11.339 App HTTP server starting up at port 37840
+12:13:11.339 {
+  "appVersion": "0.53.2",
+  "dbVersion": 196,
+  "syncVersion": 25,
+  "buildDate": "2022-07-09T13:40:41+02:00",
+  "buildRevision": "9b4ef6ea5eb3711c5ebd9d99fffdc771b84dacc1",
+  "dataDirectory": "C:\\Users\\Admin\\AppData\\Roaming\\trilium-data",
+  "clipperProtocolVersion": "1.0",
+  "utcDateTime": "2022-07-21T04:13:10.403Z"
+}
+12:13:11.339 CPU model: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz, logical cores: 12 freq: 2904 Mhz
+12:13:11.354 Could not register global shortcut Ctrl+Alt+P
